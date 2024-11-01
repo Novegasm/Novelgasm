@@ -1,0 +1,916 @@
+<!--bookshelf -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title> </title>
+		<meta name="" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  	
+  /*universal styles setter*/  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    Font-family:'roboto condensed';
+    Font-weight:300px;
+    font-size:16;
+    text-decoration: none;
+} 
+
+body { 
+  text-decoration: none !important;
+  -webkit-tap-highlight-color: rgba(7,21,36,0.5); /* removes hover glow when links are tapped*/
+	background-color:#071924;
+	color: white;
+	font-weight: bold;
+	font-size:15;
+    Font-family:'times new roman';
+    Font-weight:300px;
+	text-align: center;
+  justify-content: center;
+} 
+ 
+    
+  
+    
+  #logo {
+    display: block;
+    Justify-content:center;
+    Align-items:center;
+    Text-align: center;
+    Margin-bottom:;
+    Height:40px;
+    Width:100%;
+    Text-transform:uppercase;
+    -webkit-text-stroke: 0px black;
+
+    Font-weight:bold;
+    text-shadow:
+
+    0 0 10px #000000,
+
+    0 0 20px #000000;
+    Background:;
+  }
+    /* bookshelf nav */
+    
+    #nav-bar {
+  display: flex;
+  Margin-left:60px;
+  Margin-bottom:30px;
+  align-items: center;
+}
+
+.nav-item.active {
+	Border-radius:6px;
+	padding:6px;
+  background-color: black; /* or any other visual indicator */
+}    
+
+
+#nav-scroll-box {
+  overflow-x: auto;
+  white-space: nowrap;
+  flex-grow: 1;
+  max-width: 80px; /* adjust max-width as needed */
+}
+
+#nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  Font-size:15px;
+  Margin-bottom:-12px;
+  Color:#ff1991;
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.content {
+  Margin-top:-10px;
+  /* Add styles for content divs */
+}
+
+
+#content-container  {
+	margin-bottom: 1px;	
+	margin-top:;
+  margin-left:0.2em;
+  margin-right:0.2em;
+}
+
+.book-container {
+   Margin-left:10px;
+
+  Margin-right:10px;
+	background-color: transparent;
+ align-items: center;
+	padding:0.1em;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+    
+ .bookshelf-header {
+   Text-transform:uppercase;
+ Color:white;
+ Font-family:'roboto condensed';
+ Font-size:22px;
+ Margin-bottom:5px;
+ Margin-top:5px;
+} 
+
+.book-shelf {
+	display: grid;
+
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+    padding-left:4px;
+    padding-right:4px;
+	
+}
+
+.book {
+	background-color: black;
+	padding: 0px;
+	border: 1px solid #ddd;
+	border-radius: 11px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	text-decoration: none;
+}
+
+.book img {
+	width: 100%;
+   object-fit: contain;
+	border-radius: 10px;
+}
+
+.book h3 {
+	font-size: 14px;
+	color:white;
+	margin-bottom:0;
+  Font-family:'roboto';
+    Font-weight:300px;
+  Text-transform:capitalize;
+	margin-top:0;
+	text-align: center;
+}
+    
+    
+    /*bookshelf nav end*/
+    
+    
+    
+  #t-text {
+    Padding:4px;
+    Background:;
+    font-size: 30px;
+font-family: "cantora one";
+Margin-bottom:-5px;
+Padding-bottom:-10px;
+Text-align:center;
+Color:white;
+
+    }  
+    
+    
+
+
+
+ footer h3 {
+   color:#ff1991;
+   Text-align:center;
+   Margin-left:20px;
+     font-size:15px;
+    Font-family:'roboto condensed';
+    Font-weight:bold;
+  }
+    
+    
+
+  
+ .top-header {
+ 	width:100%;
+   Background:#242324;
+   Padding-top:2px;
+   Padding-left:;
+   Padding-right:;
+   Margin-top:;
+   Margin-left:;
+   Margin-righ:;
+} 
+
+
+
+
+/*ANDROID MEDIA SETTING*/
+
+@media only screen and (max-width: 768px) {
+    
+		
+}
+/*END OF MOBILE MEDIA SETTING*/
+
+
+/*PC MEDIA SETTING*/
+
+ @media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.book-shelf  {
+		grid-template-columns: repeat(4, 1fr);
+}
+   
+   
+   
+   .Search-text {
+			Text-align:;
+          Margin-bottom:1px;
+          Margin-top:1px;
+	display:flex;
+	margin-right:20px;
+	padding-left:335px;
+} 
+   
+   .top-header {
+   Background:#242324;
+   Padding-top:;
+   Margin-top:;
+} 
+ 
+   
+#content-container {
+margin-top:  10px;
+margin-left:  3em;
+margin-right: 3em;
+ }
+
+    
+   
+ .body {
+  Margin-top:;
+  Margin-left:;
+  Margin-right:;
+ } 
+}
+/*END OF PC MEDIA SETTING*/
+    </style >
+  
+<!--END OF CSS-->
+  
+  
+   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cantora+One&effect=neon|outline|emboss|shadow-multiple" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+  
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+</head>
+	
+	
+  <body>
+	
+     <div class="top-header">
+     <div id="logo">
+     <div class="font-effect-outline" id="t-text">
+NOVELGASM</div>
+     <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg></div>
+
+     
+	
+  
+
+   
+   <!-------------NAV BAR------------------------------------------>
+<div class="nav-bar" style="margin-bottom:-10px; margin-top:-10px;">
+	
+<ul >
+	<li class="nav-link dropdown">
+	<a href="#" class="dropdown-toggle"> <button style="Font-family:'roboto condensed'; Font-weight:bold; color:black; background:; width:; font-size:20px; border:none; padding:2px; border-radius:8px;margin-bottom:1px;margin-top:5px;" >menu</button> </a>
+<ul class="dropdown-menu">
+
+  <br>
+<li class="nav-link"><a href="../index.html">Home</a></li>
+<li class="nav-link"><a href="../search_genre.html">Genre</a></li>
+  <li class="nav-link"><a href="Quiz.html">Quiz</a></li>  
+  <li class="nav-link"><a href="random.html">Random</a></li>
+<li class="nav-link"><a href="market.html">Store</a></li>
+<br>
+  
+
+
+</ul>
+</li>
+</ul>
+</div>
+</div>
+     
+<style>
+.nav-bar {
+	margin:20px;
+	color:red;
+	text-align:left;
+background-color:;
+padding: 1em;
+}
+
+.nav-bar a {
+  Text-transform:capitalize;
+color:white;
+font-family:'roboto condensed';	
+Font-size:16px;
+}
+
+.nav-bar ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display:block ;
+}
+
+.nav-link {
+	display :;
+margin-right: 20px;
+position: relative;
+}
+
+.dropdown-toggle:after {
+content: "\25BC";
+font-size: 10px;
+margin-left: 5px;
+}
+
+.dropdown-menu li  {
+  display: block;
+}
+
+.dropdown-menu.hidden {
+  display: none;
+}
+</style>
+<script>
+// Add event listener to dropdown toggle
+document.querySelectorAll('.dropdown-toggle').forEach((toggle) => {
+  toggle.nextElementSibling.classList.add('hidden'); // hide initially
+  
+  toggle.addEventListener('click', (e) => {
+    e.preventDefault();
+    const dropdownMenu = toggle.nextElementSibling;
+    dropdownMenu.classList.toggle('hidden');
+  });
+});
+</script >
+<!-------------------------NAV BAR END---------------->
+   
+	
+
+
+<div style="color:black;
+    Font-family:'Cantora one'; Margin-left:; Margin-right:; width:100%;
+    Font-weight:bold; font-size: 12px; text-align: center; background: #E6EBEF; border-radius:;  box-shadow: 0 0 10px rgba(0, 0, 0, 2);">Read Novels for free</div>
+
+  <div class="search-text">
+<input id="text-div" type="text" placeholder="Search...">
+<button id="search-btn">Search</button>
+</div>
+     <style>
+		.Search-text {
+			Text-align:;
+          Margin-bottom:1px;
+          Margin-top:1px;
+	display:flex;
+	margin-right:20px;
+	margin-left:35px;
+} 
+	#text-div{
+      Font-family:'roboto condensed';
+           Margin-bottom:10px;
+          Margin-top:10px;
+		border:none;
+		border-radius:4px;
+	padding:10px;
+	background:#2C2E30;
+	color:white;
+	} 
+	
+	#search-btn {
+      Font-family:'roboto condensed';
+      Margin-bottom:10px;
+          Margin-top:10px;
+      Padding:8px;
+		background:black;
+	color:white;
+	border-radius:4px;
+	border:none;
+	} 
+</style>
+     <script>
+const textDiv = document.getElementById('text-div');
+const searchBtn = document.getElementById('search-btn');
+
+searchBtn.addEventListener('click', () => {
+const searchTerm = textDiv.value;
+window.location.href = '../search_Genre.html?search=' + encodeURIComponent(searchTerm);
+});
+</script>
+  
+
+  <!---------------Bookshelf----------->
+     
+  <div class="bookshelf-header">
+   RANDOM
+  </div>
+<!-- Navigation Bar -->
+<div id="nav-bar">
+  <div id="nav-scroll-box">
+    <ul id="nav-list">
+      <li class="nav-item" data-content-id="content-1">1</li>
+      <li class="nav-item" data-content-id="content-2">2</li>
+      <!--<li class="nav-item" data-content-id="content-3">3</li>
+      <!-- Add more nav items as needed -->
+    </ul>
+  </div>
+</div>
+
+<!-- Content Container -->
+<div id="content-container">
+	<!------------------------------->
+<div id="content-3" class="content hidden">
+<section class="book-container" >
+		<div class="book-shelf">
+<!------------------------------------>	
+<!-- <div class="book">
+<a href=""><img src="" alt="**">
+				  <h3></h3></a>
+			          </div>
+    <!---------------------------------->  
+<!-- <div class="book">
+<a href=""><img src="" alt="**">
+				  <h3></h3></a>
+			          </div>
+    <!---------------------------------->  
+<!-- <div class="book">
+<a href=""><img src="" alt="**">
+				  <h3></h3></a>
+			          </div>
+    <!---------------------------------->  
+<!-- <div class="book">
+<a href=""><img src="" alt="**">
+				  <h3></h3></a>
+			          </div>
+<!------------------------------------>	
+</div>
+</section>			
+</div>		
+		
+		
+  
+    <!---------------------------------->  
+
+  
+  
+   <div id="content-2" class="content hidden">
+<section class="book-container" >
+		<div class="book-shelf">
+<!------------------------------------->	
+<div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/09/the-possessed-or-devils-by-fyodor_10.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMfi9jkdAfw1jJqUg-grIpr8kK8YnKnR97z08sNPU4ONYylsFGNCqGh2oYTtUxEGN3KTOtsoJpYxECtVT0gHo5XZT2hFxCZg8x-_1B1AqyXdyZjDPjPGv3JdopSdTagllUX3l4qTDUSOF8hGJEEiyZdqiTB42GldJLyFaKPA6CLlipSFYdJ_S9_C8KeXA/s1600/images%20%2840%29.jpeg" alt="**">
+				  <h3> The possessed  or, The devils by Fyodor Dostoyevsky</h3></a>
+			          </div>
+			
+    <!---------------------------------->  
+              
+  <div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/09/merry-adventures-of-robin-hood.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFO_hnHv4xD9HpjTI7oAxAtNRxzTXbt8dH3HbdVBAzreMz-8V0pra4EskeuWv2wWGnoo8sE0C-m5i7iVFl-AJ_8HGw1APef4iTnB6b2glEFuzjilHKGfwIEtGeWuQ4BgRJII03hPJeNEeKSSAHPJOHPlgb7c0EnhAjYlWbxKSjPoKmYltyVGCiWeORuRY/s1600/images%20%2841%29.jpeg" alt="**">
+				  <h3>Merry Adventures of Robin Hood. </h3></a>
+			          </div>
+			
+    <!---------------------------------->  
+          
+  <div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/09/pet-samatary_11.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI8ImLZP9n8fHhaGtAMsvKDkXD4EvQN4NfXouURcyiY-ZNf4pxNmycFsKN8khHyIGqlT_Hn_LR3WIRTPwRVdJWyawvaV9w7WNOCT6P2OsLeAHxbJyb39PPNZGLwPcF4PkPBduP1ZAXUNO0n2PGPrrEyhuQgTM4_Qm1qDFZGv1YzBf-Ie9_J-549sTrh38/s1600/Pet_Sematary_%281983%29_front_cover,_first_edition.jpg" alt="**">
+				  <h3>PET SAMATARY </h3></a>
+			          </div>
+			
+    <!---------------------------------->        <div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/09/the-terror-mystery-by-arthur-machen.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSFk4tNjxJnkEtywpazd6tuG4ipn4lFhSIzL2uOV4YKIoVziP8EAmp7n0PVfVFlBven5tjhP7QjnZtQ_cC1Y52-HnXB3hVSJKdbv2NrP1UdAWwmyzfhKjslNWEy2XUmuO0i0SaxCI4pM6CDyeZmfCfAOPnDFF8G2UohasPZ9nvNs3V0rjYqwIDP86o5Vw/s1600/images%20%2842%29.jpeg" alt="**">
+				  <h3>The Terror: A Mystery by Arthur Machen</h3></a>
+			          </div>
+			
+    <!---------------------------------->
+          <div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/09/penpal.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTRrcPx3btXwjGdx-WrJfRubfj96S5biKcF01LDnkJ3QndPBHZXkRbd0CnbrlZGI8-iixA76MilNUZLsDopxwaxFwU-JXxt1i7WCUo5ntvVBAsI47cte-eVEJe_HK2B9fz3hSgxAjSjftL4NN32vGgwKjl-Yp3Cjl4Sa1TIyxEBmpQOVtCAGF_xCcYPMY/s1600/images%20%2843%29.jpeg" alt="**">
+				  <h3>Penpal</h3></a>
+			          </div>
+			
+    <!---------------------------------->
+          <div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/09/treasure-island.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjikucBjhteIR8EulJQLDXyAGvUao_xT0WSw8NgQoKy0n-jeCL7aqRPra6NNTgcHOiDlx_J-cy9zk52VAJiA64hns6tETCp4PLPkFlthTOY3k1YnXTw6TWFBRD4rmD_f9VkA_xJck2_Ak_x1r0iNtvCt_08Mbr0jRzNLHLKT-U73Tjzre3T3J3QR-e1eo4/s1600/images%20%2845%29.jpeg" alt="**">
+				  <h3>Treasure Island </h3></a>
+			          </div>
+			
+    <!---------------------------------->
+          <div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/09/winnie-pooh.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia9s9G7Jx9xPwh-LZIFz7OXwiIOPMYrDhs-m5JmVQ1laK8lPyte9KxYbZFgXhgvhTDaxtdezqDDgUqjVBAiLDTkP69UPWb9j7SgLioGySniRHKMZHD425c_eQeN7NTKa18KQ_iEagNb1snjUeh1d8tr2_nPodpyWpaFhnFRKPl_oRYDaKDHz5RMp9syy4/s1600/images%20%2846%29.jpeg" alt="**">
+				  <h3>Winnie the Pooh</h3></a>
+			          </div>
+			
+    <!---------------------------------->
+          <div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/09/the-queen-of-spades-and-other-stories.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdExaBOD-86Kt1vDWuBfRRkOQgoXIpcN32G4YpqUyE1CUEVhRefedSZrA6BHe-pYXleyR2Fnuoh-FdqX_t_XPzyQDtV4u98yG6Ri_RAcFQYmrwys3zp6TiPdAYUx6gf0z6CGEtnSXv95-XKokkS36bAb6PYG8XJg72ex2T56mtH8MN7jcrZHRgl8wUyR4/s1600/images%20%2847%29.jpeg" alt="**"><h3>
+				  THE QUEEN OF SPADES AND OTHER STORIES</h3></a>
+			          </div>
+			
+    <!---------------------------------->
+          
+    <div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/09/the-old-maids-club.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgi9FissWzWa7OLr0bdfMiLIdGcDK3hD4Ps9kHibviNYRXLA3lrwK1ojP05T3XLJ6tzUDrmzPHkzZhz8WVdST1wsjZKIgbKQvaiQPbkYGdeH0QGAY-qjpPW2JP6OmUBtFZsvECCyl-hIQhvJmPJymhnf6obdzFetavOJa5KSOIRzmBzQXwW-OxF3RxtCWo/s1600/images%20%2848%29.jpeg" alt="**">
+				  <h3>The Old Maids club. </h3></a>
+			          </div>
+			
+    <!---------------------------------->
+      <div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/09/tender-is-flesh.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjhIccP-9WMhJi6ztJ1M51V5iQZmOEe-ZMeeQ4BMA80WmUuPvbEwm8LikuG2NSZ1uiDB-pXF84LRCsCv70yGgm1mgR6o3TXeT-QETA7rrEP_QYWka3q20JM9gUnKnBJ48F8ZnxtqJTeCAX7-2VxI4G4s8hM9-fK3Z4lx5XQFk95cfWeg2LwiLNWIqlEHQ/s1600/images%20%2850%29.jpeg" alt="**">
+				  <h3>Tender is the flesh </h3></a>
+			          </div>
+			
+    <!---------------------------------->
+			<div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/09/legend-of-sleepy-hollow.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKPbLmNlopOSZLQhY85MBHJw8_UTQZgPbC1aE1dR8LvtmoOGzj6jOGy2OdbhyphenhyphengeNeon4UFN58fNz60HJ-A_6VSDXyxWQxv_m653tgb3-u4rNbVYZxfYRC2oDv4mMGqok-lflT9N8AtRFVW97ZLF0EZ5MX7SehPB0MgA0s45opIf49vIYD0eFCi3OJvhyE/s1600/images%20%2849%29.jpeg" alt="**">
+				  <h3>Legend of Sleepy Hollow. </h3></a>
+			          </div>
+			
+    <!---------------------------------->
+		<div class="book">
+   <a href="https://novelgasm.blogspot.com/2024/09/adventures-of-sherlock-holmes.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6szMRGo02YdE_Xm4EJaAlglcfbsbBMNZat2XalEUV50NVB7UZdLLbE7tPsOioQ7WvxuCzCvSfIdh_oTVAPlsHwuwML4Wmo4j4rtVKht4Yr2_DEJaEfT3GN9WVz5D8WGUThmuwNr3TgkyFAepuDNV8cPoUPjlX2xJizeSXfmn7P4CDUFq59tARCklXFy4/s1600/image_search_1727582330193.jpg" alt="**">
+      <h3>Adventures of Sherlock Holmes </h3></a>
+			          </div>
+<!---------------------------------->
+          
+	<div class="book">
+			 <a href="https://novelgasm.blogspot.com/2024/09/werewolfofParis.Html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrC1_L8c_d3mVPDXPEA5xAvHfd1hTcQWe9TOQbh0Tz7_Tdccoe-MV7dhEHHq5sKp2pYCIs5vGkInsyL-VIzEaZiB1a83KO-nh6lfgfOXxyatzNH6SCA8Dld9cTFVPYIZej2qjvGBF-MGF4cNxOGKc_OWAPRLI4qF_DKZO9bfCeSesmqCGw4rBYoVTh_mo/s1600/image_search_1727656690925.jpg" alt="**">
+				  <h3> Werewolf of Paris. </h3></a>
+			          </div>
+		<!--------------------------------------->
+
+          
+          <div class="book">
+
+         <a href="https://novelgasm.blogspot.com/2024/09/misery.html">
+
+			  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl1X8daFPj2T15Ct20yUAlwvCTGsLjiJ_2g0wgYJKRiqjUFEBkxNn7qpup_iTbfdus0__Qcxh5WQ55MZRGxQpATVGSrANQLzB8ppKvAvo2DXHJSrmHh7R3JADw09Bx85E2FBF5bPWKJGCRH7t_OwCn6m-4e3dp9HaudW7870P-TyR9JYsBGOnTZKL_Xmk/s1600/image_search_1727656588841.jpg" alt="**">
+
+				  <h3> Misery</h3></a>
+
+			          </div>
+
+	<!---------------------------------->
+        
+          
+        <div class="book">
+
+         <a href="https://novelgasm.blogspot.com/2024/09/intensity.html">
+
+			  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWVGbv1SJxnpJD0H2CRmFyu0vk3zIBBw9E_TZ3dqcoaigeSO9Tx67tRi8MR9IChyphenhyphenJ_eL1nWwCTrJsuL94Hekg3VJvFCKB84Vj2eXABVNJ-OkptBn24A9P77T5XrH9q_HjatyK7dYtkgFFaEhK2alky1dGHYuz4eLDUXU4XI83I4fhp7nqYpYK2E6NvlI4/s1600/image_search_1727656740441.jpg" alt="**">
+
+				  <h3> Intensity</h3></a>
+
+			          </div>
+
+	<!---------------------------------->	
+          
+          
+          <div class="book">
+
+         <a href="https://novelgasm.blogspot.com/2024/09/journey-to-west-vol-1.html">
+
+			  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4M6lZ_wLXfCkyy6ou7PuZL_7qHFWHNe9bTTI2LUDZ3tCSqAhawwWfQHh71mfcTGGT6OgsM55-mlQmmWFtjrNIzGBIfRQgYS42NjHAZFRRa147IkR0TyKTCoWkC3VF5HvnR2Mv59IgmRBujRDkx-xt7CKi3xuH8zkqgA2eRp4EpmxGQrZRYt2SoZwOW2c/s1600/image_search_1727486735156.jpg" alt="**">
+
+				  <h3> Journey to the West. Vol 1.</h3></a>
+
+			          </div>
+
+	<!---------------------------------->	
+          <div class="book">
+
+         <a href="https://novelgasm.blogspot.com/2024/09/lolita.html">
+
+			  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFMRPXttclk8IM7q7jgwB2PNPJxdpG6_C695neYPI2FcFmAxPtfEf9KL5AvqleN8EwoMsBHQ08mdsc5g1elccI6m0cuJiVl4CzDtxY-PhWiaEaoc7Y_OBfQkneMU6k99lGL6j5UjWkCVV4C3_q8chl_1uy5K_vcuwIf1laSjJjx3GvBcrZUTNy7QQL6d0/s1600/image_search_1727486540879.jpg" alt="**">
+
+				  <h3>Lolita </h3></a>
+
+			          </div>
+
+	<!---------------------------------->	
+          
+          
+          <div class="book">
+
+         <a href="https://novelgasm.blogspot.com/2024/09/the-castle-of-otranto.html">
+
+			  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbn7y1n167Vs8zxJcMpKAuDg4lnXQfMw2nP9F8MfrKbuZ9ZAxWCCtvKj3345PYqc1HGmKIi3QoHL6vXjZLbR9W0b10RvKdxGu2o0R57k7IQDsbFIMRRbtPClZqifF9fiN-LfSkbx2ENGyFzmAc6QmyIBr17IJvgv6_i86D5K7Q453FEX7Qv06TeUTbrKI/s1600/image_search_1727486581271.jpg" alt="**">
+
+				  <h3>The Castle of otranto </h3></a>
+
+			          </div>
+
+	<!---------------------------------->	
+          
+          <div class="book">
+
+         <a href="https://novelgasm.blogspot.com/2024/09/mansfield-park-by-jane-austen.html">
+
+			  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjI7NN9LTbVGrfwlfzTnMIOnlYEu-3CsVzJxW0OZR_iYXjH5_ACaEHCtvvUx6k9MMUtwDCK2HXAud-2l9YrsaO0SrawJNfy5DvWfcg76HKKo1bamhiyLyoc34apy59uls7uG57-ucco-lB1Ee4Vq93GlzBfio1H68A6wOfTpxNygfsNxsfTPide2FeOXU/s400/image_search_1727460521062.jpg" alt="**">
+
+				  <h3> Mansfield Park</h3></a>
+
+			          </div>
+
+	<!---------------------------------->	
+          
+          
+          <div class="book">
+
+         <a href="https://novelgasm.blogspot.com/2024/09/i-am-legend_17.html">
+
+			  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTfLDm8U0-bMnfxuC8iCS2ViLJLxJxwMNy2V-03VjbJfmVBjRjY5rzGfuUhDCzbie1FU80gI5szQEaekCDYvDvzSrN8JgAZmnSvsHSFJ_5PnxlxKy0-MFzQS0LlDF2vDjF46KGiSs3FHhyphenhyphenmaTy-ZJr75kVZjCrJV_L1ULQpbJK_a8JXE2sfUVNn2fId9I/s1600/image_search_1726537394616.jpg" alt="**">
+
+				  <h3>I Am Legend.  </h3></a>  </div>
+<!--------------------------------------->	
+</div>
+</section>			
+</div> 
+  
+  
+  <div id="content-1" class="content">
+<section class="book-container" >
+		<div class="book-shelf">
+<!--------------------------------------->	
+<div class="book">
+       <a href="https://novelgasm.blogspot.com/2024/09/the-mad-king.html">
+			  <img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1725259604/A1zPWIKqXzL._AC_UF1000_1000_QL80__xh8yqe.jpg" alt="**">
+
+				  <h3>the Mad king</h3></a>
+
+			          </div>
+	<!---------------------------------->		    
+          <div class="book">
+         <a href="https://novelgasm.blogspot.com/2024/09/tarzan-terrible.html">
+			  <img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1725259604/images_-_2024-09-02T055033.900_zeb1tw.jpg" alt="**">
+
+				  <h3>Tarzan The terrible</h3></a>
+
+			          </div>
+	<!---------------------------------->		
+          
+          
+          <div class="book">
+      <a href="https://novelgasm.blogspot.com/2024/09/mastermind-of-mars.html">
+			  <img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1725259604/images_-_2024-09-02T054830.596_nqmvoo.jpg" alt="**">
+
+				  <h3>mastermind of Mars</h3></a>
+
+			          </div>
+	<!---------------------------------->		
+
+          <div class="book">
+            <a href="https://novelgasm.blogspot.com/2024/09/outlaw-of-torn.html">
+			  <img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1725259606/The_Outlaw_of_Torn_b12ivp.jpg" alt="**">
+
+				  <h3>the outlaw of torn</h3></a>
+
+			          </div>
+	<!---------------------------------->		
+		<div class="book">
+			  <a href=" https://novelgasm.blogspot.com/2024/08/the-lightning-thief.html"><img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1724211044/R_2_xxzbpc.jpg" alt="**">
+				  <h3>The Lightning Thief</h3></a>
+			          </div>
+			
+
+	<!---------------------------------->		
+			
+		<div class="book">
+			  <a href=" https://novelgasm.blogspot.com/2024/08/the-undercover-billionaires-baby.html"><img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1724211032/cover_9_js2elo.jpg" alt="**">
+				  <h3>The Undercover Billionaire's Baby</h3></a>
+			          </div>
+			
+		<!---------------------------------->		
+			
+		<div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/08/the-great-gatsby.html "><img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1724211032/The_Great_Gatsby_Cover_1925_Retouched_xhzner.jpg" alt="**">
+				  <h3>Great Gatsby</h3></a>
+			          </div>
+			
+		<!---------------------------------->		
+			
+			<div class="book">
+			  <a href=" https://novelgasm.blogspot.com/2024/08/the-shining.html"><img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1724211030/images_-_2024-08-10T181540.287_din2kx.jpg" alt="**">
+				  <h3>The Shinning</h3></a>
+			          </div>
+			
+	<!---------------------------------->		
+			
+	<div class="book">
+			  <a href=" https://novelgasm.blogspot.com/2024/08/harry-potter-and-philosopher-stone.html"><img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1724211029/images_nvzqww.jpg" alt="**">
+				  <h3>Harry Potter and the Philosopher's Stone</h3></a>
+			          </div>
+			
+		<!---------------------------------->		
+
+<div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/08/the-enchanted-april.html "><img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1724211029/images_-_2024-08-18T153734.139_ufowfj.jpg" alt="**">
+				  <h3>The Enchanted April</h3></a>
+			         </div>
+			
+		<!---------------------------------->		
+			
+		<div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/08/emma-by-jane-austen_9.html "><img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1724211028/images_-_2024-08-09T052711.614_pwy882.jpg" alt="**">
+				  <h3>Emma</h3></a>
+			          </div>
+			
+	<!---------------------------------->		
+			
+	<div class="book">
+			  <a href="https://novelgasm.blogspot.com/2024/08/the-unbroken.html "><img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1724211028/cover_10_f4gno6.jpg" alt="**">
+				  <h3>The Unbroken</h3></a>
+			          </div>
+	<!---------------------------------->		
+
+	<div class="book" >
+			<a href="https://novelgasm.blogspot.com/2024/08/the-mysterious-stranger.html">	<img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1723799324/images_-_2024-08-12T092407.573_nnliyi.jpg" alt="##">
+			<h3>The Mysterious Stranger</h3></a>
+				</div>
+   	<!---------------------------------->	   
+				
+						<div class="book" >
+		<a href="https://novelgasm.blogspot.com/2024/08/great-expectation_13.html">	<img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1723799327/images_-_2024-08-13T153552.023_trscgd.jpg" alt="##"> 
+					<h3>Great Expectation</h3></a>
+				</div>
+			
+	<!---------------------------------->	
+			
+						<div class="book" >
+				
+             <a href="https://novelgasm.blogspot.com/2024/08/peter-pan_18.html"><img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1723799327/images_-_2024-08-14T065313.768_gggjmg.jpg" alt="##">
+         <h3>Peter Pan</h3></a>
+				</div>
+				
+		<!---------------------------------->	
+				
+						<div class="book" >
+		<a href="https://novelgasm.blogspot.com/2024/08/the-notebook.html"><img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1723799326/images_-_2024-08-11T024728.286_ogshhp.jpg" alt="##">
+					<h3> The Notebook</h3></a>
+				</div>
+				
+		<!---------------------------------->	
+				
+						<div class="book" >
+		<a href="https://novelgasm.blogspot.com/2024/08/tales-of-two-cities.html"><img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1723799326/images_-_2024-08-09T143753.579_h3vknp.jpg" alt="##">
+		<h3>A Tale of Two Cities</h3></a>
+				</div>
+				
+	<!---------------------------------->	
+				
+						<div class="book" >
+		<a href="https://novelgasm.blogspot.com/2024/08/sea-of-monsters_12.html">	<img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1723799326/81GncSiJK1L._AC_UF1000_1000_QL80__lbg9zs.jpg" alt="##"> 
+	<h3>Sea of Monsters </h3></a>
+				</div>
+	<!---------------------------------->	
+				
+						<div class="book" >
+			<a href="https://novelgasm.blogspot.com/2024/08/flipped.html"> <img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1723799326/images_-_2024-08-12T063842.834_w5ogwf.jpg" alt="##"> 
+					<h3>Flipped</h3></a>
+				</div>
+	<!---------------------------------->	
+	
+					<div class="book" >			
+			<a href="https://novelgasm.blogspot.com/2024/08/a-princess-of-mars_9.html"> <img src="https://res.cloudinary.com/djfmvoomp/image/upload/v1723799352/R_s8wrda.jpg" alt="##">
+				<h3>A Princess of Mars</h3></a>
+                        </div>
+<!--------------------------------------->	
+</div>
+</section>			
+</div>
+ <!------------end of content container---->
+</div>
+
+
+<script>
+const navList = document.getElementById('nav-list');
+const navItems = navList.querySelectorAll('.nav-item');
+const navBox = document.getElementById('nav-scroll-box');
+const contentContainer = document.getElementById('content-container');
+const contentDivs = contentContainer.querySelectorAll('.content');
+const prevButton = document.getElementById('prev-button');
+const nextButton = document.getElementById('next-button');
+let currentIndex = 0;
+
+// Initialize navigation
+navItems.forEach((navItem, index) => {
+  navItem.addEventListener('click', () => {
+    // Hide all content
+    contentDivs.forEach((contentDiv) => {
+      contentDiv.classList.add('hidden');
+    });
+
+    // Show selected content
+    const contentId = navItem.dataset.contentId;
+    document.getElementById(contentId).classList.remove('hidden');
+
+    // Update current index
+    currentIndex = index;
+
+    // Update active nav item
+    navItems.forEach((item) => item.classList.remove('active'));
+    navItem.classList.add('active');
+
+    // Scroll nav box to selected item
+    navBox.scrollLeft = index * (navItem.offsetWidth + 20);
+  });
+});
+
+// Previous button click event
+prevButton.addEventListener('click', () => {
+  // Hide current content
+  contentDivs[currentIndex].classList.add('hidden');
+
+  // Decrement index
+  currentIndex = (currentIndex - 1 + navItems.length) % navItems.length;
+
+  // Show previous content
+  contentDivs[currentIndex].classList.remove('hidden');
+
+  // Update active nav item
+  navItems.forEach((item) => item.classList.remove('active'));
+  navItems[currentIndex].classList.add('active');
+
+  // Scroll nav box to selected item
+  navBox.scrollLeft = currentIndex * (navItems[currentIndex].offsetWidth + 20);
+});
+
+// Next button click event
+nextButton.addEventListener('click', () => {
+  // Hide current content
+  contentDivs[currentIndex].classList.add('hidden');
+
+  // Increment index
+  currentIndex = (currentIndex + 1) % navItems.length;
+
+  // Show next content
+  contentDivs[currentIndex].classList.remove('hidden');
+
+  // Update active nav item
+  navItems.forEach((item) => item.classList.remove('active'));
+  navItems[currentIndex].classList.add('active');
+
+  // Scroll nav box to selected item
+  navBox.scrollLeft = currentIndex * (navItems[currentIndex].offsetWidth + 20);
+});
+
+// Set initial active navigation item and content
+navItems[0].classList.add('active');
+navItems[0].click();
+</script>
+
+
+
+
+    
+		
+     
+
+		
+
+
+	
+	
+	<br>
+		<br>
+	
+<footer Style="Font-family:'roboto condensed';
+    Font-weight:bold; Text-align:center;   background:black ; width:; border-radius:15px;  padding:16px; color:white;Margin-left:; Margin-right:;">
+      <div class="foot-link" style="display:flex;"><h3 onclick="window.location.href='policy.html'"> Privacy Policy</h3> &nbsp;&nbsp;&nbsp;&nbsp;<h3 onclick="window.location.href='contact.html'">contact us</h3></div>  copyright © 2024 Novelgasm
+</footer>
+</body>
+</html>
+
