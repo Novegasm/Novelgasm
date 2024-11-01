@@ -1,0 +1,1402 @@
+<!--NOVELGASM OFFICIAL WEBSITE-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NOVELGASM</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-frame-options" content="DENY">
+    <meta name="keywords" content="Fiction novels, best sellers, book reviews, romance books, thriller novels, mystery books, fantasy fiction, science fiction novels, horror books, historical fiction, crime novels, action adventure, young adult fiction, children's books, memoirs, biographies, self-help books, non-fiction books, ebooks, audiobooks, book club, reading list, book recommendations, literary fiction, contemporary fiction, historical romance, paranormal romance, urban fantasy, dystopian fiction, science fiction romance, fantasy romance, horror fiction, crime thriller, mystery suspense, thriller novels, action novels, adventure novels, romance novels, fantasy novels, science fiction novels, horror novels, historical novels, crime novels, mystery novels, book lovers, reading is fun, bookworm, book club books, best books to read, new releases, book reviews online, book ratings, book recommendations online, online book club, book discussion, book review blog, book review website, book review sites, book review online, book reviews and ratings, book review websites, book review blogs, book review sites, book review online, book review and rating, book review and recommendation, online book reviews, book review and summary, book review and analysis, book review and critique, book review and evaluation, book review and assessment, book review and appraisal, book review and feedback, book review and comment, book review and opinion, book review and viewpoint, book review and perspective, book review and insight, book review and thoughts, book review and reflections, book review and musings, book review and ramblings, book review and rants, book review and ravings, book review and reviews, book review and ratings, book review and recommendations, book review and summaries, book review and analyses,romance, thriller, mystery, sci-fi, fantasy, horror, book reviews, best books to read, book recommendations, reading list, book club, fiction novels, non-fiction books, ebook, audiobook, book summary, book analysis, literary fiction, contemporary fiction, historical fiction, romance books, thriller novels, mystery books, science fiction novels, fantasy books, horror books, young adult fiction, children's books, memoirs, biographies, self-help books, book awards, book festivals, writing workshops, publishing industry, book marketing, book promotion, literary agents, book editors, writing contests, book reviews online, book ratings, book recommendations online, online book club, book discussion, book review blog, book review website, book review sites, book review online, book reviews and ratings, book review websites, book review blogs">
+
+  <style>
+  	
+  /*universal styles setter*/  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    Font-family:'times new roman';
+    Font-weight:300px;
+    font-size:16;
+    text-decoration: none;
+} 
+
+body { 
+  text-decoration: none !important;
+  -webkit-tap-highlight-color: rgba(7,21,36,0.5); /* removes hover glow when links are tapped*/
+	background-color:#071924;
+	color: white;
+	font-weight: bold;
+	font-size:15;
+    Font-family:'';
+    Font-weight:300px;
+	text-align: center;
+  justify-content: center;
+} 
+ 
+    
+  
+/*-------series novel styles---------*/
+    .content{
+   Border-radius:10px;
+  Background:black;
+  Padding-top:5px;
+  Padding-bottom:15px;
+  Padding-left:15px;
+  Padding-right:15px;
+    }
+    
+#content-container {
+  Border-radius:10px;
+	background:black;
+	padding:15px;
+} 
+    
+    .text-image-container {
+      display: block;
+      align-items: flex-start;
+    }
+
+.nav-item.active {
+	Border-radius:6px;
+	padding:6px;
+  background-color:black; /* or any other visual indicator */
+}    
+    
+     .wrap {
+     	Margin-top:15px;
+      display: flex;
+      Margin-bottom:15px;
+      Margin-left:20px;
+    }
+    
+   .scroll {
+   Display:flex;	
+   Margin-top:10px;
+   Margin-left:40px;
+  } 
+.wrap p {
+	display :block;
+	Text-align:left;
+    	Font-family: 'roboto condensed';
+      flex-grow: 1;
+      Color:white;
+      font-size: 13px;
+      margin-top: 2px;
+      margin-left: 15px;
+    }
+
+
+    
+    
+    .text-image {
+      width: 90px;
+      height: 130px;
+      border-radius: 8px;
+      margin-right:;
+    }
+    
+  #nav-bar {
+  	Text-align : center ;
+    Margin-left:90px;
+    Margin-bottom:20px;
+  display: flex;
+  align-items: center;
+}
+
+
+#nav-item2 {
+Margin-right:;	
+} 
+
+.novel-series {
+  Font-weight:bold;
+text-shadow: 0px 0px 5px black;
+Color:white;
+  Font-family:'imprima';
+Margin-top :15px;
+Margin-bottom :15px ;
+Font-size:20px;
+} 
+
+.author {
+Color:#ff1991;
+Font-family:'roboto condensed';
+Font-size:14px;
+} 
+
+.series-title {
+Color:;
+Font-family:'roboto condensed';
+Font-size:17px;
+} 
+
+#nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+    
+.nav-item {
+	Text-align:center;
+	Font-size:14px;
+  Color:white;
+  Font-family:imprima;
+  display: inline-block;
+  margin: 0 5px;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+    
+/*----------Series Novel end-------------*/
+  
+  
+  
+
+    
+  #t-text {
+    Padding:4px;
+    Background:;
+    font-size: 30px;
+font-family: "cantora one";
+Margin-bottom:-5px;
+Padding-bottom:-10px;
+Text-align:center;
+Color:white;
+}  
+    
+    
+
+
+  
+    /*--------------carousel container Begins---------*/
+    
+.carousel-container {
+	
+  Border-radius:25px;
+  background: linear-gradient(to bottom, black, rgba(0,0,0,1));
+  position: relative;
+  width: 100%;
+  height: 300px;
+  Box-shadow:0 0 4px rgba(255,255,255,0.7);
+  overflow: hidden;
+}
+
+.carousel-slide {
+  Padding-top:10px;
+  Padding-bottom:;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transition: transform 3s;
+}
+
+.carousel-slide.active {
+  transform: translateX(0);
+  left: 0;
+}
+
+.text-container h2 {
+  Font-family:'roboto condensed';
+  Font-size:13px;
+	color:#ff1991;
+  Text-align:center;
+}
+    
+    
+    .text-container h3 {
+  font-family:'roboto condensed';
+  Font-size:12px;
+	color:silver;
+  Text-align:left;
+
+}
+
+.text-container p {
+ Font-style:;
+max-height: 190px;
+  overflow-y: auto;
+  overflow-x: hidden;
+padding-bottom:50px;
+  /*font-family: "Cantora One", sans-serif;*/
+ Font-family:'roboto condensed';
+	color:white;
+  Font-size:16px;
+  Font-weight:;
+}
+
+.text-container {
+  Margin-left:20px;
+	font-size:10px;
+  width: 150%;    
+  Font-family:'roboto condensed';
+  margin-top:2px;
+  display: block;
+  Font-weight:bold;
+  justify-content: center;
+  align-items: center;
+  Text-align: Left;
+}
+    
+.image-container{
+width: 100%;
+Margin-right:20px;
+Margin-left:5px;
+margin-top:5px;
+
+} 
+    
+    
+    
+ .image-container img {
+  height: 150px;
+   Border-radius:18px;
+  object-fit: contain;
+  margin-top:10px;
+}
+
+.carousel-nav {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #333;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #ccc;
+    }
+
+ .carousel-slide {
+  transition: opacity 1s, transform 1s;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+  transform: scale(1);
+}
+.carousel-slide:not(.active) {
+	display:flex;
+  opacity: 0;
+  transform: scale(0.5);
+}
+.swipe-left,
+.swipe-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.swipe-left {
+  left: 10px;
+}
+
+.swipe-right {
+  right: 10px;
+}
+    
+ /*------------end of carousel-------------*/
+    
+    
+
+
+
+/*.footer{
+	color:silver;
+  text-transform:capitalize;
+	padding:1em;
+	text-align: center;
+	margin-top:10px;
+	margin-bottom:0px;
+    Margin-left:20px;
+  Margin-right:;
+ Font-family:'times new roman';
+    Font-weight:300px;
+  /*-webkit-text-stroke:0.5px  black; /*Add a px black stroke to the text */
+ /*display:block;
+	position: absolute;
+  Width:100%;
+  -webkit-tap-highlight-color: rgba(7,21,36,0.5); /* removes hover glow when links are tapped*/
+	
+ /*  font-size:15px;
+  background:;
+  border-radius:14px;
+	
+}*/
+   
+ footer h3 {
+   color:#ff1991;
+   Text-align:center;
+   Margin-left:20px;
+     font-size:15px;
+    Font-family:'roboto condensed';
+    Font-weight:bold;
+  }
+    
+#logo {
+	width:100%;
+Display:block;
+} 
+
+ .top-header {
+ 	width:100%;
+   Background:#242324;
+   Padding-top:2px;
+   Padding-left:;
+   Padding-right:;
+   Margin-top:;
+   Margin-left:;
+   Margin-righ:;
+} 
+
+/*--------------popular books--------*/
+.Popular{
+	margin-bottom: 1px;	
+	margin-top:-15px;
+  margin-left:0.3em;
+  margin-right:0.3em;
+}
+
+.popular-head {
+  text-shadow: 0px 0px 5px black;
+	Margin-bottom :15px;
+	Margin-top:20px;
+	color:white;
+  Padding: 2px;
+ font-size:20px;
+text-align: center;
+ Font-family :'roboto condensed';
+ Font-weight:bold;
+ background:;
+  border-radius:7px;
+ text-transform:uppercase;
+  text-shadow: 0px 0px 5px black;
+	-webkit-text-stroke 0.3px  black; /* Add a px black stroke to the text */
+} 
+	
+.book-container {
+	background-color:rgba(0, 0, 0, 0.5);
+ align-items: center;
+  Margin-right:10px;
+	
+  Margin-left:10px;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.book-shelf {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+  
+    padding-left:4px;
+    padding-right:4px;
+	
+}
+
+.book {
+	background-color: black;
+	padding: 0px;
+	border: 1px solid #ddd;
+	border-radius: 11px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	text-decoration: none;
+}
+
+.book img {
+	width: 100%;
+	height: 150px
+	object-fit: contain;
+	border-radius: 10px;
+}
+
+.book h3 {
+  Font-style:;
+	font-size: 13px;
+  Font-family:'roboto';
+	color:white;
+	margin-bottom:0;
+	margin-top:0;
+	text-align: center;
+}
+
+/*------end of popular books---*/
+
+
+
+	
+
+/*ANDROID MEDIA SETTING*/
+
+@media only screen and (max-width: 768px) {
+    
+		
+}
+/*END OF MOBILE MEDIA SETTING*/
+
+
+/*PC MEDIA SETTING*/
+
+ @media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.book-shelf  {
+		grid-template-columns: repeat(4, 1fr);
+}
+   .dropdown {
+     left:0;
+}
+   
+   .top-header {
+   Background:#242324;
+   Padding-top:;
+   Margin-top:;
+
+} 
+
+.Search-text {
+			Text-align:;
+          Margin-bottom:1px;
+          Margin-top:1px;
+	display:flex;
+	margin-right:20px;
+	padding-left:335px;
+} 
+  
+ 	.book-shelf  {
+	grid-template-columns: repeat(4, 1fr);
+}
+   
+   
+.text-container p {
+ Font-style:;
+max-height: 95px;
+  overflow-y: auto;
+  overflow-x: hidden;
+padding-bottom:50px;
+  /*font-family: "Cantora One", sans-serif;*/
+ Font-family:'roboto condensed';
+	color:white;
+  Font-size:18px;
+  Font-weight:;
+}   
+
+   
+   
+.popular {
+margin-top:  10px;
+margin-left:  3em;
+margin-right: 3em;
+   }
+   
+.carousel-container {
+ background: linear-gradient(to bottom, black, rgba(0,0,0,1));
+  position: relative;
+  width: 100%;
+  
+  height: 200px;
+  overflow: hidden;
+} 
+   
+ .body {
+  Margin-top:;
+  Margin-left:;
+  Margin-right:;
+
+ } 
+   
+
+}
+/*END OF PC MEDIA SETTING*/
+
+    </style >
+  
+<!--END OF CSS-->
+  
+  
+   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cantora+One&effect=neon|outline|emboss|shadow-multiple" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+  
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+</head>
+	
+	
+  <body>
+	
+     <div class="top-header">
+     <div id="logo">
+     <div class="font-effect-outline" id="t-text">
+NOVELGASM</div>
+     <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </div>
+
+     
+	
+  <!--logo--
+<div class="logo"><img  src="https://res.cloudinary.com/djfmvoomp/image/upload/v1724595628/Picsart_24-08-25_15-17-23-431_j2aelx.png"  alt="Novelgasm"></div>-->
+  
+
+   
+   <!-------------NAV BAR------------------------------------------>
+<div class="nav-bar" style="margin-bottom:-10px; margin-top:-10px;">
+	
+<ul >
+	<li class="nav-link dropdown">
+	<a href="#" class="dropdown-toggle"> <button style="Font-family:'roboto condensed'; color:black; background:; width:; font-size:20px; border:none; padding:2px; Font-weight:bold; border-radius:8px;margin-bottom:-10px;margin-top:-30px;margin-left:10px;" >menu</button> </a>
+<ul class="dropdown-menu">
+
+  <br>
+<li class="nav-link"><a href="index.html">Home</a></li>
+<li class="nav-link"><a href="search_genre.html">Genre</a></li>
+  <li class="nav-link"><a href="page/quiz.html">Quiz</a></li>  
+  <li class="nav-link"><a href="page/random.html">Random</a></li>
+<li class="nav-link"><a href="page/market.html">Store</a></li>
+<br>
+  
+  
+
+</ul>
+</li>
+</ul>
+</div>
+</div>
+     
+<style>
+.nav-bar {
+	margin:20px;
+	color:red;
+	text-align:left;
+background-color:;
+padding: 1em;
+}
+
+.nav-bar a {
+  Text-transform:capitalize;
+color:white;
+font-family:'roboto condensed';	
+Font-size:16px;
+}
+
+.nav-bar ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display:block ;
+}
+
+.nav-link {
+	display :;
+margin-right: 20px;
+position: relative;
+}
+
+.dropdown-toggle:after {
+content: "\25BC";
+font-size: 10px;
+margin-left:2px;
+}
+
+.dropdown-menu li  {
+  display: block;
+}
+
+.dropdown-menu.hidden {
+  display: none;
+}
+</style>
+<script>
+// Add event listener to dropdown toggle
+document.querySelectorAll('.dropdown-toggle').forEach((toggle) => {
+  toggle.nextElementSibling.classList.add('hidden'); // hide initially
+  
+  toggle.addEventListener('click', (e) => {
+    e.preventDefault();
+    const dropdownMenu = toggle.nextElementSibling;
+    dropdownMenu.classList.toggle('hidden');
+  });
+});
+</script >
+<!-------------------------NAV BAR END---------------->
+   
+	
+
+
+<div style="color:black;
+    Font-family:'Cantora one'; Margin-left:; Margin-right:; width:100%;
+    Font-weight:bold; font-size: 12px; text-align: center; background: #E6EBEF; border-radius:;  box-shadow: 0 0 10px rgba(0, 0, 0, 2);">Read Novels for free</div>
+
+ 
+     <div class="search-text">
+<input id="text-div" type="text" placeholder="Search...">
+<button id="search-btn">Search</button>
+</div>
+     <style>
+		.Search-text {
+			Text-align:;
+          Margin-bottom:1px;
+          Margin-top:1px;
+	display:flex;
+	margin-right:20px;
+	margin-left:35px;
+} 
+	#text-div{
+		Text-align:left;
+      Font-family:'roboto condensed';
+           Margin-bottom:10px;
+          Margin-top:10px;
+		border:none;
+		Font-weight:bold;
+		border-radius:4px;
+	padding:10px;
+	background:#2C2E30;
+	color:white;
+	} 
+	
+	#search-btn {
+		Text-align:center;
+      Font-family:'roboto condensed';
+      Margin-bottom:10px;
+          Margin-top:10px;
+      Padding:8px;
+		background:black;
+	color:white;
+	border-radius:4px;
+	border:none;
+	} 
+</style>
+<script>
+const textDiv = document.getElementById('text-div');
+const searchBtn = document.getElementById('search-btn');
+
+searchBtn.addEventListener('click', () => {
+const searchTerm = textDiv.value;
+window.location.href = 'search_genre.html?search=' + encodeURIComponent(searchTerm);
+});
+</script>
+
+
+<!-- <div class="recommended">
+      <iframe src="page/reco.html" height="300px" frameborder="0" width="100%" scrolling="no"></iframe>
+</div>-->
+
+
+     <!----------Carousel----------->
+     
+     <div class="carousel-container">
+  <div class="carousel-slide active">
+    <div class="text-container">
+  <a href="book/novel/Dune_by_Frank_Herbert_Herbert_Frank__z-lib_org.html">  <h2> DUNE. </h2></a>
+      <h3> PREVIEW:</h3>
+      <p> 
+        
+A beginning is the time for taking the most delicate care that the balances are correct. This every sister of the Bene Gesserit knows. To begin your study of the life of Muad’Dib, then, take care that you first place him in his time: born in the 57th year of the Padishah Emperor, Shaddam IV. And take the most special care that you locate Muad’Dib in his place: the planet Arrakis. Do not be deceived by the fact that he was born on Caladan and lived his first fifteen years there. Arrakis, the planet known as Dune, is forever his place.<br><br>—FROM “MANUAL OF MUAD’DIB”<br>BY THE PRINCESS IRULAN<br><br>In the week before their departure to Arrakis, when all the final scurrying about had reached a nearly unbearable frenzy, an old crone came to visit the mother of the boy, Paul.<br><br>It was a warm night at Castle Caladan, and the ancient pile of stone that had served the Atreides family as home for twenty-six generations bore that cooled-sweat feeling it acquired before a change in the weather.<br><br>The old woman was let in by the side door down the vaulted passage by Paul’s room and she was allowed a moment to peer in at him where he lay in his bed.<br><br>By the half-light of a suspensor lamp, dimmed and hanging near the floor, the awakened boy could see a bulky female shape at his door, standing one step ahead of his mother. The old woman was a witch shadow—hair like matted spiderwebs, hooded ’round darkness of features, eyes like glittering jewels.<br><br>“Is he not small for his age, Jessica?” the old woman asked. Her voice wheezed and twanged like an untuned baliset.<br><br>Paul’s mother answered in her soft contralto: “The Atreides are known to start late getting their growth, Your Reverence.”<br><br>“So I’ve heard, so I’ve heard,” wheezed the old woman. “Yet he’s already fifteen.”<br><br>“Yes, Your Reverence.”<br><br>“He’s awake and listening to us,” said the old woman. “Sly little rascal.” She chuckled. “But royalty has need of slyness. And if he’s really the Kwisatz Haderach…well….”<br><br>Within the shadows of his bed, Paul held his eyes open to mere slits. Two bird-bright ovals—the eyes of the old woman—seemed to expand and glow as they stared into his.<br><br>“Sleep well, you sly little rascal,” said the old woman. “Tomorrow you’ll need all your faculties to meet my gom jabbar.”<br><br>And she was gone, pushing his mother out, closing the door with a solid thump.<br><br>Paul lay awake wondering: What’s a gom jabbar?<br><br>In all the upset during this time of change, the old woman was the strangest thing he had seen.<br><br>Your Reverence.
+ </p>
+
+    </div>
+    <div class="image-container">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj55ewezLdJ8H_auhj2IOlByM10iqxVOgc3OPnuoKGsYI9_lwIB8YbvfN2V28GWbwYiEEnYZLweVnvron6wdH3sS-kC_tdWaROJbvBzGmZZGy93fUkB2FYg4Ed81KOZjIWcjYExhnKCukmcetYeyoJJX9-yIr9NDLotmC61kJQjPLh_QX-8tROK5EA1Qern/s200/image_search_1730347835514.jpg" alt="#" onclick="window.location.href='book/novel/Dune_by_Frank_Herbert_Herbert_Frank__z-lib_org.html'">
+  </div></div>
+  <!---------------------------------
+  <div class="carousel-slide">
+    <div class="text-container">
+      <a href="book/novel/"><h2>THE MYSTERIOUS STRANGER.</h2></a>
+      <h3> PREVIEW:</h3>
+      <p>
+   It was in 1590—winter. Austria was far away from the world, and asleep; it was still the Middle Ages in Austria, and promised to remain so forever. Some even set it away back centuries upon centuries and said that by the mental and spiritual clock it was still the Age of Belief in Austria. But they meant it as a compliment, not a slur, and it was so taken, and we were all proud of it. I remember it well, although I was only a boy; and I remember, too, the pleasure it gave me.<br>Yes, Austria was far from the world, and asleep, and our village was in the middle of that sleep, being in the middle of Austria. It drowsed in peace in the deep privacy of a hilly and woodsy solitude where news from the world hardly ever came to disturb its dreams, and was infinitely content. At its front flowed the tranquil river, its surface painted with cloud-forms and the reflections of drifting arks and stone-boats; behind it rose the woody steeps to the base of the lofty precipice; from the top of the precipice frowned a vast castle, its long stretch of towers and bastions mailed in vines; beyond the river, a league to the left, was a tumbled expanse of forest-clothed hills cloven by winding gorges where the sun never penetrated; and to the right a precipice overlooked the river, and between it and the hills just spoken of lay a far-reaching plain dotted with little homesteads nested among orchards and shade trees.<br>The whole region for leagues around was the hereditary property of a prince, whose servants kept the castle always in perfect condition for occupancy, but neither he nor his family came there oftener than once in five years. When they came it was as if the lord of the world had arrived, and had brought all the glories of its kingdoms along; and when they went they left a calm behind which was like the deep sleep which follows an orgy.
+      </p>
+    </div>
+    <div class="image-container">
+      <img src="" alt="Image#" onclick="window.location.href='book/novel/'">
+ 
+    </div>
+  </div>
+  <!---------------------------------
+    <div class="carousel-slide">
+    <div class="text-container">
+      <a href="book/novel/"><h2> Lady Susan.  </h2></a>
+      <h3> PREVIEW:</h3>
+      <p>
+  
+I<br>Lady Susan Vernon to Mr. Vernon.<br><br>Langford, Dec.<br><br>MY DEAR BROTHER,—I can no longer refuse myself the pleasure of profiting by your kind invitation when we last parted of spending some weeks with you at Churchhill, and, therefore, if quite convenient to you and Mrs. Vernon to receive me at present, I shall hope within a few days to be introduced to a sister whom I have so long desired to be acquainted with. My kind friends here are most affectionately urgent with me to prolong my stay, but their hospitable and cheerful dispositions lead them too much into society for my present situation and state of mind; and I impatiently look forward to the hour when I shall be admitted into your delightful retirement.<br><br>I long to be made known to your dear little children, in whose hearts I shall be very eager to secure an interest. I shall soon have need for all my fortitude, as I am on the point of separation from my own daughter. The long illness of her dear father prevented my paying her that attention which duty and affection equally dictated, and I have too much reason to fear that the governess to whose care I consigned her was unequal to the charge. I have therefore resolved on placing her at one of the best private schools in town, where I shall have an opportunity of leaving her myself in my way to you. I am determined, you see, not to be denied admittance at Churchhill. It would indeed give me most painful sensations to know that it were not in your power to receive me.<br><br>Your most obliged and affectionate sister,<br>S. VERNON.
+
+
+</p>
+    </div>
+    <div class="image-container">
+      <img src=""    alt="Image #" onclick="window.location.href='book/novel/'">
+    </div>
+  </div>
+  <!-- Add more carousel slides here -->
+  <div class="carousel-nav">
+    <div class="carousel-dots">
+      <span class="dot active"></span>
+     <!--<span class="dot"></span>
+        <span class="dot"></span>-->
+      <!-- Add more dots for each slide -->
+    </div>
+  </div>
+     </div>   
+     
+     
+	
+<div class="popular-head" >Popular</div>
+<div class="popular">
+<section class="book-container" >
+  <!--Book-shelf of trending books-->
+ <div class="book-shelf">
+	<!----------------------------------		
+          
+          
+          
+          <div class="book">
+			 <a href=""> <img src="" alt="**">
+				  <h3></h3></a>
+			          </div>
+			
+	<!----------------------------------		
+          	<div class="book">
+			 <a href=""> <img src="" alt="**">
+				  <h3></h3></a>
+			          </div>
+			
+	<!---------------------------------
+<div class="book">
+			 <a href=""> <img src="" alt="**">
+				  <h3></h3></a>
+			          </div>
+			
+	<!------------------------------	
+          	<div class="book">
+			 <a href=""> <img src="" alt="**">
+				  <h3></h3></a>
+			          </div>
+			
+	<!---------------------------------->
+          <div class="book">
+			 <a href="book/novel/penpal__Auebech.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT6lX8dk_LsyWd9KG457U0zSWX9S5bHre36aVx7oHN2S-9LeYLZ3gxgwFfCCJ402vvdRC7QaKSD3bcXG71_YsV4P9dcrLIg2aU8wJMXWhPt2oyei0JOKKoglcDLvGax7dnll6YJ1H20CEi7Td7coknKKtdBXhmvb7AmOLh79ZSRuOngXg6-v7pz1Ao39P2/s200/image_search_1730345659335.jpg" alt="**">
+				  <h3>Penpal</h3></a>
+			          </div>
+			
+	<!---------------------------------->		
+          	<div class="book">
+			 <a href="book/novel/man-in-the-iron-mask.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPLvFlLKqy2Bm1G7WcHQIB7smWLPsyFrZK2uZiVbsXDVn7qaP_KPMSEx66zrL7waXKB0Sof2qhk4_ksc78QTLHtp1wyK8d-RyfxxphfKwQ13Ar4mVZkvRdE0-4wW5OhMddC6XoYJLaDr2lXm8Fl0Zwp8y7gEMgUbD5U0gTMlehRES5aGxPQNGGuZmqv6ml/s200/image_search_1730346021561.jpg" alt="**">
+				  <h3>The man in the iron Mask</h3></a>
+			          </div>
+			
+	<!---------------------------------->
+          <div class="book">
+			 <a href="book/novel/It_Stephen_King.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjASUF2xfGdh7QGN3hUnJiJdwMw_GtlYOU9GHPrJvqEyqZWVDAoKcDCFKd0LRWGE-PZlk1WCnngIHkclfpXYd3wdFGIAeI76rY8qb0rpG-AOVyzoOncrPqCHknCnEw3G10xKWqObxF34ohw3KiD2ZN_cwVb6E-SQYcGTVDfNMBOsX44JV6hriEkWHax4Sdo/s200/image_search_1730346190136.jpg" alt="**">
+				  <h3>IT</h3></a>
+			          </div>
+			
+	<!---------------------------------->		
+          	<div class="book">
+			 <a href="book/novel/The_Son_of_Tarzan__Edgar_Rice_Burroughs.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbMyMWPDDXtG8pnE7sr7vNhGWjzYnTtIcPUUGL3tW7PTMfIpLW4loBQ8ud1r7nDuGM3vShrEGQvCb3oGR5SVZWL9cC7gR1WV1cAy0qpnLWupSnT2GCapp3HaqqnF9zuqAzqJcOjwfVgNxQht-kTs327k9_QDA57d09Op3lKhIfVaibHIXtU3tMIukFNhR-/s200/image_search_1730340503292.jpg" alt="**">
+				  <h3>The Son of Tarzan</h3></a>
+			          </div>
+			
+	<!---------------------------------->
+          <div class="book">
+			 <a href="book/novel/The_Picture_of_Dorian_Gray__Oscar_Wilde.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn1xij2g_mHEXeETydWaGX6YWWdJRdBZZC-RNq0NdpKIzVS__QALsbRSpa0z6sZEeKp7_1R-yV65wWHnX-t3gg_JnyjWuYs008It_ev_GmK8Dh5qPwyqFTySFNLxs4h_My5rey6OOu2Cvy2bHw9l2N56tdPU-WIxOhS-fbybnqtfC3FToTxv061nF6OR2S/s200/image_search_1730340347076.jpg" alt="**">
+				  <h3>The Picture Of Dorian Gray</h3></a>
+			          </div>
+			
+	<!---------------------------------->		
+          	<div class="book">
+			 <a href="book/novel/The_Phantom_of_the_Opera__Gaston_Leroux.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcBTqggc_sBHsZZbKs_4ug467NhsasV4295bZqSAh78d28NtYzA7hP7rn6Ru6XG5ZhLc-xOhKNGQtNEYKgCzTwkVGziKkYnZcgMmzxe_ImfStDWQLV2MKNz7uEstH7VDG78cKEkqwZltnXhw0v9z4NQ6wK0i6ckMrHTbXQ_rZwce-1sKeCIfyRmMmarYt6/s200/image_search_1730340243163.jpg" alt="**">
+				  <h3>The Phantom of the Opera</h3></a>
+			          </div>
+			
+	<!---------------------------------->
+          <div class="book">
+			 <a href="book/novel/The_People-that-time-forgot.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-uONlz5X4-8agzPmX2Bku32cdgSpRW2JDTGERgsKdKNsx4Rir4m3cQQCX67pZQq-yJ7XZNa3KRRQJKzs29AHLYWr-KyNXR7t-igE8L3FDvJmQCEH3ZBNAkp0MgrEkvRFyUpRTj5zejYPQtc1H1ckFAq1JuHAWYromO-kcGWUutVrNp4V13YOLkTTmEvvX/s200/image_search_1730340180071.jpg" alt="**">
+				  <h3>The People That Time Forgot</h3></a>
+			          </div>
+			
+	<!---------------------------------->		
+          	<div class="book">
+			 <a href="book/novel/The_Night_Land__William_Hope_Hodgson.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg53aogORFUvXLZmXmwdPvjzYZpC4J8R61VZiKUdrTECoqePF0NwSPtfI9FHXMyCZjFgWpHig9-nCyEkBzHvdI6lhRq0TGfEvmHXM1LF4p5sjG_cjB6wYPX8tQl8owSXq2QQcIMA_Do9xo_ARLC6O34W0EkBAgl0OrM-dddPlVaOpC8si4ZMyS1FcpkfWdU/s200/image_search_1730340150301.jpg" alt="**">
+				  <h3>The Night Land</h3></a>
+			          </div>
+			
+	<!---------------------------------->
+          <div class="book">
+			 <a href="book/novel/The_Murders_in_the_Rue_Morgue__Edgar_Allan_Poe.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJdMyYFAR1IZK1GaCWNcO2U3crS0WlGs5ZFcuDkyg8J_3fzW8MOizaeeuMa3ARZVhsLh3X_g0txXexN6lk39W9WYwXg2T_SwGg0dSSrT42ilyImaJWC5cB3LoN-sLiM0_5zpeDpD9bD9fBOtOMtZUYgepA2TexSVrW6B234U6SlXDxZGyPmOF6PPSuCU_R/s200/image_search_1730340105739.jpg" alt="**">
+				  <h3>The Murder in Rue Morgue</h3></a>
+			          </div>
+			
+	<!---------------------------------->		
+          	<div class="book">
+			 <a href="book/novel/The_Medusa_Chronicles.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6T8OGsjDWtVuFdp34KQBbld3DDa7RjFpvU1LYkukZxBq87V1lP_wHdnaxYdcUa_smBcYuLR_TwM3pXse6-Z6GzE62iE51NVHdbqX3zVbus6piKIP_HK4GQ9CrJv8DjzQngrwxc1HAfLymWJLm3MCs6tDfVoKzrtxpEhLkbehXoRU52r9FRaCU5VoyYrQE/s200/image_search_1730340063872.jpg" alt="**">
+				  <h3>The Medusa Chronicles</h3></a>
+			          </div>
+			
+	<!---------------------------------->
+          <div class="book">
+			 <a href="book/novel/The_Legend_of_Sleepy_Hollow__Washington_Irving.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAKCegzc6wUx3FWW0HvL0UCWQOwQosjFazWdszM9lL_SJsbW1WjF5RqQkSA-kOiaweNm0f3OzZUnm2-T8WY79nYjcaMwEUXauCo-u8Obne-ksQWqLO1BAQWuBdPGqizVeOSNCGHwAXgf35NyMMUQY3UK9uVZ4f529Bh_o0SeWie68ZkhUpW_olKcMgDGhQ/s200/image_search_1730339775321.jpg" alt="**">
+				  <h3>The Legend of sleepy Hollow </h3></a>
+			          </div>
+			
+	<!---------------------------------->		
+          	<div class="book">
+			 <a href="book/novel/The_King_in_Yellow__Robert_W._Chambers.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp-NX0L2i0Xsm4pxiwkO49yu5lUIyBBDdqe1TC526IAMJaxH2GQT_8Bv7P5SUf2C_UEcxzddeVt6iVeqyjWUZsZi57owYn2_-O50hAdhcK0tclH1rQZUPb0kMKfiT3w3v9k1ZbKCzFNFAAWLeTqGXyF3RLhmTEUa-tGRUi4xM8kD5NyARGlW4HZwhTv-N0/s200/image_search_1730339707043.jpg" alt="**">
+				  <h3>The King in Yellow</h3></a>
+			          </div>
+			
+	<!---------------------------------->
+          <div class="book">
+			 <a href="book/novel/wizard-of-oz.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtNIR8AEcKO25iKAE2t4Sa_CP4zv_4f9RKMXAKZ8QnKIvMMOEIVXY5zTQM48VaDHq80zUHzOgg8thYR-GLgGkiUtHzgiTakQNYeemK-YSo6NpMKBMJ9-U8-6zfKpH69ISx1O3YwzXJhEqiNe7pOifbTm4GgyoNKQwOFh2bPI_BkSKXusfR9d56d7gejVIu/s200/image_search_1730341219847.jpg" alt="**">
+				  <h3>Wizard of Oz</h3></a>
+			          </div>
+			
+	<!---------------------------------->		
+          	<div class="book">
+			 <a href="book/novel/Treasure_island.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4FD4KqLDEe82D85WaTxU4a0sMMA9MmweYvobif1ZcLim370Q-FXaXS9ko48qOPge7TIdhwwdouurv0PL6xH1N6qXzYVB4RCTkykOQj74_xvm39DDuj3jWbrZqeUdS4QiZ1TpIOFxGZde8Flma-QS5j97JDd20cBQlikmcIPN5B5Kv6P2G0G9_O34IvDsY/s200/image_search_1730345548580.jpg" alt="**">
+				  <h3>Treasure Island</h3></a>
+			          </div>
+			
+	<!---------------------------------->
+          	<div class="book">
+			 <a href="book/novel/The_Terror__Dan_Simmons.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqa_BPVmCKg83vb0ZkQl7yfutLxkz7i80iqpJcQH42Nu46EvB9HvdQ8Ms6if4kxYURzjpaJGSJh2I9_kWsKfmjpE-J1-ZcwSqp3ZBkpufoLm1kp7uNL5OmqTYMvBzzxOPx2B_COGZ5iLzXu2v5C_9mnQz1OzRvefh6dkO5PvMpqtBZ6WlShG4b0J9XqMmq/s200/image_search_1730345588491.jpg" alt="**">
+				  <h3>The Terror</h3></a>
+			          </div>
+			
+	<!---------------------------------->		
+          	<div class="book">
+			 <a href="book/novel/Pet_Sematary__Stephen_King.html"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsz_dOZ7S8C6BVkl5sPpPlynRML8eezs8uCMdcvVYIC7r94LZFhBUsv1lMVjgpTjJOKtmtUp1XzCT8lRXOi2sNk5di4ErpKeimKq6_7e5d9uRYWTdRjvPHX1ENHwaAeehCDzsA_2kygv6QdxHf3hLdiouUPtkVw4XSYcxKRX6P-XFWyYTSE1YU0VxoQ6Rg/s200/image_search_1730345647875.jpg" alt="**">
+				  <h3>Pet Sematary</h3></a>
+			          </div>
+			
+	<!---------------------------------->		
+          						
+</div>
+</section>
+</div>
+ <!-------------------NOVEL SERIES---------->
+ 	<br><br>
+<div class="novel-series">
+	NOVEL SERIES 
+</div>
+
+<!-- Navigation Bar -->
+<div id="nav-bar">
+    <ul id="nav-list">
+      <li class="nav-item" data-content-id="content-1">ONGOING</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <li class="nav-item" id="nav-item 2" data-content-id="content-2">COMPLETED </li>
+    <!-- <li class="nav-item" data-content-id="content-3">3</li>
+      <!-- Add more nav items as needed -->
+    </ul>
+</div>
+
+<!-- Content Container -->
+<div id="content-container">
+	<!---------ongoing------------->
+  <div id="content-1"  class="content">
+<!----------------------------->
+		<!-- <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!--------------------------
+	  <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!--------------------------
+	  <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!--------------------------
+	  <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!--------------------------
+	  <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!--------------------------
+	  <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!--------------------------
+	  <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!-------------------------->
+       <div class="wrap">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnPYZ-EdR3yCZndpIypr2ruxEwvJVlKISKPtbJdZ1fN5eUAYEtqdGLxPfmbuQoZsRi48QoY2f_9BygBnXYkp53HOAwhxXhwrmMoTcbE1An1C_1rzEpEBz9RsbvFU7dGNop8zVb54ka4aO9E5gMxZc2viuPnqJr6E7Epk-zSWvDJMeM2vlt3gQwblZhQqfC/s200/image_search_1730349353310.jpg" alt="**" class="text-image">
+      <p><a href="series/His_Dark_Materials.html"  style="color:silver;"   class="series-title">His Dark Materials</a>
+<br>by <a href="https://en.m.wikipedia.org/wiki/Philip_Pullman"  style="color:#ff1991;" class="author">Philip Pullman</a>
+<br>Books: 3
+</p>
+   </div>
+
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!-------------------------->
+        <div class="wrap">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvbniPgooUbN2fJSJvO5ThPu5f-DQnJvnbV1XoT_qGOOhpKmXWetEz1HpsE4pLOz5MsnKG181bxls3Yw5qwwk6I8nFowinMGRHiTQwCtRLsfwT-55egyWGUrMRgf8prwq_96ODEbfTU5JhtKUw4fx58mBiMvPrH99X92IKkv2ji-sAxptZ5BOGTjb2wKOa/s200/image_search_1730349224153.jpg" alt="**" class="text-image">
+      <p><a href="series/a_song_of_ice_and_fire.html"  style="color:silver;"   class="series-title">A Song of Ice and Fire </a>
+<br>by <a href="https://en.m.wikipedia.org/wiki/George_R._R._Martin"  style="color:#ff1991;" class="author">George R. R. Martin</a>
+<br>Books: 5
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!------------------------->
+	
+       <div class="wrap">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicXV9cRD5lOaBFfZccJ5eUxAEwhcIk5JJuFdAPvlN0EPaFvP6LcwjK5t767Kd_F4p0m6FaS1gpVqsj3O4PgyPze_82ordkV8_cKmqcjlcxCOqlqBfqb6oFuJ4huwzaXgLdl0oBZ7KXoM0QujPQcih-tMOzHUboxnFNhsnNaWTCoy9fnlxyxBPUJ0s4sl0b/s200/image_search_1730346528432.jpg" alt="**" class="text-image">
+      <p><a href="series/percy_jackson_and_the_olympians.html"  style="color:silver;"   class="series-title">Percy Jackson and the Olympians</a>
+<br>by <a href="https://en.m.wikipedia.org/wiki/Rick_Riordan"  style="color:#ff1991;" class="author">Rick Riordan</a>
+<br>Books: 7
+</p>
+   </div>
+        
+<!-------------------------->
+        
+<!---------------------------->
+</div>
+
+
+
+<!--------completed--------->
+  <div id="content-2" class="content hidden">
+<!------------------------->
+		<!-- <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!--------------------------
+	  <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!--------------------------
+	  <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!--------------------------
+	  <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!--------------------------
+	  <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!--------------------------
+	  <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!--------------------------
+	
+           <div class="wrap">
+          <img src="" alt="**" class="text-image">
+      <p><a href="series/"  style="color:silver;"   class="series-title"></a>
+<br>by <a href=""  style="color:#ff1991;" class="author"></a>
+<br>Books: 
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!-------------------------->
+       <div class="wrap">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaREbDbv3i0XhGYqPOutzJRGCn-tHvM9i8buhCWTJZz6_s_jNEKpHds4vj22UgT4A27OMufnm1UqDUHUpb6D0jCzJ_qvBmeVaeto6GBisoPddNQbiOP4kb9Y35WhHfj6_2ClfMcEFWdcqMe8rLbrkpiIKnewp6rvKgF0uIlL7a0K2wjTVm6h8U8vMxnQvf/s200/image_search_1730347285568.jpg" alt="**" class="text-image">
+      <p><a href="series/earthsea_series.html"  style="color:silver;"   class="series-title">The Earthsea Cycle</a>
+<br>by <a href="https://en.m.wikipedia.org/wiki/Ursula_K._Le_Guin"  style="color:#ff1991;" class="author">Ursula K. Le Guin</a>
+<br>Books: 6
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!-------------------------->
+        <div class="wrap">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj55ewezLdJ8H_auhj2IOlByM10iqxVOgc3OPnuoKGsYI9_lwIB8YbvfN2V28GWbwYiEEnYZLweVnvron6wdH3sS-kC_tdWaROJbvBzGmZZGy93fUkB2FYg4Ed81KOZjIWcjYExhnKCukmcetYeyoJJX9-yIr9NDLotmC61kJQjPLh_QX-8tROK5EA1Qern/s200/image_search_1730347835514.jpg" alt="**" class="text-image">
+      <p><a href="series/dune_-series.html"  style="color:silver;"   class="series-title">Dune</a>
+<br>by <a href="https://en.m.wikipedia.org/wiki/Frank_Herbert"  style="color:#ff1991;" class="author">Frank Herbert</a>
+<br>Books: 8
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!------------------------->
+	
+       <div class="wrap">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXwfIL-SSraCvkYvE9TUSvnw4sE3dEDBTFQIwVeeLYapOoFtmyQQtbDpPO3LutJxDkDnxB67A3Vpz8eO1U3DuTPHRsrbFaXj9H24Ksv_rHd2nvRVtcveWw9rbE1Q7XJI7TrgHk4o3DWZrhF2lUk9FGh0wUH7Y6zw10-eReBp_vsIEcIawjmMr1ninw0aym/s200/image_search_1730348829560.jpg" alt="**" class="text-image">
+      <p><a href="series/nania_series.html"  style="color:silver;"   class="series-title">The Chronicles of Narnia</a>
+<br>by <a href="https://en.m.wikipedia.org/wiki/C._S._Lewis"  style="color:#ff1991;" class="author">C. S. Lewis</a>
+<br>Books: 7
+</p>
+   </div>
+        <svg width="100%" height="10" margin-bottom="-10px">
+ <line x1="0" y1="5" x2="100%" y2="5" style="stroke:silver;"/>
+  </svg>     
+<!-------------------------->
+
+      <div class="wrap">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmpCNKl3LAeAeRp3Je3VxOua9v0zDeYJJi_b5oN7rU49NMyykm9UNo44RsHuWD5asjsKrsZNEiK5LIH2JzdNNqZRDs1274-1v8Q6Cq2ayd5nTFINJhOV6JlqLBTuQlEy3OWWasvo9PfiohOdB9akW2Hom8UgVbwOu4eDpoRJgOVLm8W15INPglsNE8NgMS/s200/image_search_1730348216179.jpg" alt="**" class="text-image">
+      <p><a href="series/Dark_tower_series.html"  style="color:silver;"   class="series-title">The dark Tower </a>
+<br>by <a href="https://en.m.wikipedia.org/wiki/Stephen_King"  style="color:#ff1991;" class="author">Stephen King</a>
+<br>Books: 7
+</p>
+   </div>
+<!------------------------->
+</div>
+
+  <!-- Add more content divs as needed -->
+</div>
+
+
+<script>
+const navList = document.getElementById('nav-list');
+const navItems = navList.querySelectorAll('.nav-item');
+const navBox = document.getElementById('nav-scroll-box');
+const contentContainer = document.getElementById('content-container');
+const contentDivs = contentContainer.querySelectorAll('.content');
+const prevButton = document.getElementById('prev-button');
+const nextButton = document.getElementById('next-button');
+let currentIndex = 0;
+
+// Initialize navigation
+navItems.forEach((navItem, index) => {
+  navItem.addEventListener('click', () => {
+    // Hide all content
+    contentDivs.forEach((contentDiv) => {
+      contentDiv.classList.add('hidden');
+    });
+
+    // Show selected content
+    const contentId = navItem.dataset.contentId;
+    document.getElementById(contentId).classList.remove('hidden');
+
+    // Update current index
+    currentIndex = index;
+
+    // Update active nav item
+    navItems.forEach((item) => item.classList.remove('active'));
+    navItem.classList.add('active');
+
+    // Scroll nav box to selected item
+    navBox.scrollLeft = index * (navItem.offsetWidth + 20);
+  });
+});
+
+// Previous button click event
+prevButton.addEventListener('click', () => {
+  // Hide current content
+  contentDivs[currentIndex].classList.add('hidden');
+
+  // Decrement index
+  currentIndex = (currentIndex - 1 + navItems.length) % navItems.length;
+
+  // Show previous content
+  contentDivs[currentIndex].classList.remove('hidden');
+
+  // Update active nav item
+  navItems.forEach((item) => item.classList.remove('active'));
+  navItems[currentIndex].classList.add('active');
+
+  // Scroll nav box to selected item
+  navBox.scrollLeft = currentIndex * (navItems[currentIndex].offsetWidth + 20);
+});
+
+// Next button click event
+nextButton.addEventListener('click', () => {
+  // Hide current content
+  contentDivs[currentIndex].classList.add('hidden');
+
+  // Increment index
+  currentIndex = (currentIndex + 1) % navItems.length;
+
+  // Show next content
+  contentDivs[currentIndex].classList.remove('hidden');
+
+  // Update active nav item
+  navItems.forEach((item) => item.classList.remove('active'));
+  navItems[currentIndex].classList.add('active');
+
+  // Scroll nav box to selected item
+  navBox.scrollLeft = currentIndex * (navItems[currentIndex].offsetWidth + 20);
+});
+
+// Set initial active navigation item and content
+navItems[0].classList.add('active');
+navItems[0].click();
+</script>
+
+
+
+   <!-- <div class="note">
+     <div class="body-note">
+                 <ul>
+                   <br>
+   <li> <p>Join our <a style="font-family:'imprima'; color:green;  font-size:16px;" href="https://whatsapp.com/channel/0029VanhR1F1t90bxy4rAK0H"> whatsapp channel</a> for quick and easy access to news, updates and more...           </p> </li> <br>
+ </ul>  </div>     
+       </div>-->
+                 
+
+
+
+     <script>/*carousel */
+const carousel = document.querySelector('.carousel-container');
+const slides = carousel.querySelectorAll('.carousel-slide');
+const dots = carousel.querySelectorAll('.dot');
+let currentSlide = 0;
+let slideshowStarted = true;
+let touchStartX = 0;
+let mouseStartX = 0;
+
+function nextSlide() {
+  slides[currentSlide].classList.remove('active');
+  dots[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].classList.add('active');
+  dots[currentSlide].classList.add('active');
+}
+
+function prevSlide() {
+  slides[currentSlide].classList.remove('active');
+  dots[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+  slides[currentSlide].classList.add('active');
+  dots[currentSlide].classList.add('active');
+}
+
+// Start slideshow immediately
+setInterval(nextSlide, 30000);
+
+// Dot navigation
+dots.forEach((dot, index) => {
+  dot.addEventListener('click', () => {
+    slides[currentSlide].classList.remove('active');
+    dots[currentSlide].classList.remove('active');
+    currentSlide = index;
+    slides[currentSlide].classList.add('active');
+    dots[currentSlide].classList.add('active');
+  });
+});
+
+// Touch events
+carousel.addEventListener('touchstart', (e) => {
+  touchStartX = e.touches[0].clientX;
+});
+
+carousel.addEventListener('touchend', (e) => {
+  const touchEndX = e.changedTouches[0].clientX;
+  if (touchEndX < touchStartX - 50) {
+    nextSlide();
+  } else if (touchEndX > touchStartX + 50) {
+    prevSlide();
+  }
+});
+
+// Mouse events
+carousel.addEventListener('mousedown', (e) => {
+  mouseStartX = e.clientX;
+});
+
+carousel.addEventListener('mouseup', (e) => {
+  const mouseEndX = e.clientX;
+  if (mouseEndX < mouseStartX - 50) {
+    nextSlide();
+  } else if (mouseEndX > mouseStartX + 50) {
+    prevSlide();
+  }
+});
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight') {
+    nextSlide();
+  } else if (e.key === 'ArrowLeft') {
+    prevSlide();
+  }
+});
+
+// Swipe buttons
+const swipeLeft = document.createElement('button');
+swipeLeft.innerHTML = '';
+swipeLeft.classList.add('swipe-left');
+carousel.appendChild(swipeLeft);
+
+const swipeRight = document.createElement('button');
+swipeRight.innerHTML = '';
+swipeRight.classList.add('swipe-right');
+carousel.appendChild(swipeRight);
+
+swipeLeft.addEventListener('click', prevSlide);
+swipeRight.addEventListener('click', nextSlide);
+     </script>
+     
+     
+	<script>//text typing logo
+ const text = "Novelgasm";
+    const typingText = document.getElementById("typing-text");
+    let i = 0;
+    function type() {
+      if (i < text.length) {
+        typingText.textContent += text[i];
+        i++;
+        setTimeout(type, 200);
+      } else {
+        setTimeout(erase, 20000);
+      }
+    }
+    function erase() {
+      if (i > 0) {
+        typingText.textContent = text.slice(0, --i);
+        setTimeout(erase, 200);
+      } else {
+        setTimeout(type, 2000);
+      }
+    }
+    type();
+     </script>
+		
+     
+
+
+		
+
+
+	
+	
+	<br>
+		<br>
+	
+<footer Style="Font-family:'Imprima';
+    Font-weight:300px; background:black ; width:; border-radius:15px;  padding:16px; color:white;Margin-left:; Margin-right:;">
+      <div class="foot-link" style="display:flex;"><h3 onclick="window.location.href='page/policy.html'"> Privacy Policy</h3> &nbsp;&nbsp;&nbsp;&nbsp;<h3 onclick="window.location.href='page/contact.html'">contact us</h3></div>  copyright © 2024 Novelgasm
+</footer>
+</body>
+</html>
+
