@@ -154,11 +154,16 @@ margin-right: 20px;
 position: relative;
 }
 
-.dropdown-toggle:after {
+.dropmenu:after {
 content: "\25BC";
 font-size: 10px;
 margin-left: 5px;
 }
+
+.dropmenu {
+Background:white;
+} 
+
 
 .dropdown-menu li  {
   display: block;
@@ -306,7 +311,7 @@ margin-left: 5px;
 
         .dropbtn {
         	content: "\25BC";
-        	Font-family:'Cantora one';
+        	Font-family:'roboto condensed';
         	Font-size:18px;
         	Font-weight:bold;
         	Text-align:left;
@@ -314,7 +319,7 @@ margin-left: 5px;
             background-color: black;
             color: white;
             border: none;
-            Border-radius:6px;
+            Border-radius:10px;
             cursor: pointer;
         }
         
@@ -367,7 +372,7 @@ margin-left: 5px;
 
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
    
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
      <div id="logo">
@@ -387,14 +392,14 @@ NOVELGASM</div>
 	
 <ul >
 	<li class="nav-link dropdown">
-	<a href="#" class="dropdown-toggle"> <button style="Font-family:'roboto condensed'; Font-weight:bold; color:black; background:; width:; font-size:20px; border:none; padding:2px; border-radius:8px;margin-bottom:1px;margin-top:-10px;" >menu</button> </a>
+	<a href="#" class="dropdown-toggle"> <button class="dropmenu" style="Font-family:'roboto condensed'; Font-weight:bold; color:black; background:white; width:; font-size:20px; border:none; padding:2px; border-radius:8px;margin-bottom:1px;margin-top:-10px;" ><i class="fa fa-th-list" aria-hidden="true"></i>menu</button> </a>
 <ul class="dropdown-menu">
   <br>
 <li class="nav-link"><a href="index.html">Home</a></li>
 <li class="nav-link"><a href="search_genre.html">Genre </a></li>
   <li class="nav-link"><a href="page/Quiz.html">Quiz</a></li>  
   <li class="nav-link"><a href="page/random.html">Random</a></li>
-<li class="nav-link"><a href="page/market.html">Store</a></li>
+<!--<li class="nav-link"><a href="page/market.html">Store</a></li>-->
 <br>
   
  </ul>
@@ -429,7 +434,7 @@ document.querySelectorAll('.dropdown-toggle').forEach((toggle) => {
   <!-- Your text content here -->
   	
   <div class="dropdown">
-                <button  style="text-align:left; color:; margin-left:-200px; margin-top:-50px; margin-bottom:15px;" class="dropbtn">Genre</button>
+                <button  style="text-align:left; color:; margin-left:-200px; margin-top:-50px; margin-bottom:15px;" class="dropbtn"><i class="fa fa-th-list" aria-hidden="true"></i>Genre</button>
         <div class="dropdown-content" id="words-container">
            <span class="word" data-class="adventure">Adventure</span>
             <span class="word" data-class="fantasy">fantasy</span>
@@ -452,2123 +457,2123 @@ document.querySelectorAll('.dropdown-toggle').forEach((toggle) => {
   <div id="content-container">
      <!-- Search items -->
  <div  class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>  
     <div  class="search-item   content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"> </a>
     </div>  
     <div  class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>  
     <div  class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>  
     <div  class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>  
     <div  class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>  
     <div  class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div> 
    
   
  
 <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     	<div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
          <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
     </div>
     <!-------------------------------->
     <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
-     <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7aGhupekMomqLyFR_A7dXbGFejR81qOR_UOHk_5aSSLOELZNcq6vtwiK9RpcXVVsxOubgzMAmhepOkhSPH51FUQGc0W2bz6snBCJ4lC8WHvNqpaATtUw_FryJDPdpUPMe921xbsh7Zh08HT6ArPteNmXarjqwWBLanQIX5Ff_3Q4rNq34XDnsGEUQblGJ/s200/image_search_1730626045914.jpg" alt="#" onclick="window.location.href='book/novel/A_Tale_of_two_Cities .html'">
+     <a style="color:black;padding:10px;" class="word-text" href="book/novel/A_Tale_of_two_Cities .html">A Tale of Two Cities</a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
-     <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBKZhHxk4i8gD73zSHYfvGE06Ho9YBufBER0tEMlK8_k7KY_5ivAgqO-hqYXa3bWYCA4sYgSy-J3M3izKvckBp76mte4sA8G6PU0lk6n0I7wRI7zKW1VPjYP_X2vbepXoNtYp1hsGl47FWYpNrJow_KvjfVQ262DGau55HOq_DPhONnvcXr2fWjHjcZ684/s200/image_search_1730626433868.jpg" alt="#" onclick="window.location.href='book/novel/Ada_or_Ador_a_family_chronicles.html'">
+     <a style="color:black;padding:10px;" class="word-text" href="book/novel/Ada_or_Ador_a_family_chronicles.html">Ada or Ador</a>
     </div>
     <!-------------------------------->
     <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
-     <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3dmUHStl9CJ5mLjBauQnmQJLDkmsZW-Z9SORkWXc9w4VcV8XPlC9vhmnK3w7XgX3X5dvhZczy99NFAqGOeeF3ZX-Be_mE-nR4UJTXXSSP9ZAs2Vu2ylDEa1YKzq9jDP812kbnBWP7Y0FqkVWodI4XRMz8R7hBtvh-zMWjZE-2puXcKwylgLHuO8ZtjxZN/s200/image_search_1730627107141.jpg" alt="#" onclick="window.location.href='book/novel/American_gods_ng.html'">
+     <a style="color:black;padding:10px;" class="word-text" href="book/novel/American_gods_ng.html">American gods</a>
     </div>
     <!-------------------------------->
      <div class="search-item  content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
-     <a style="color:black;padding:10px;" class="word-text" href="book/novel/"></a>
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-szCJlddWrxskroeoO9u_YEhBa5vq26zTEqCfnVhuIoBPEwLEGH7_E5aqQdnBoZXhRY7u2NXgihNfnLkbJFUtMPnnvScLGYDBmmJQRc1t7eiTprAu6e_Wl4Nm5deAlTx2F2yNaP1Uy-qnPQImkkju4zjglO0zItxj7zV2597arl-MF9nCgmDlMsupDKhj/s200/image_search_1730626335098.jpg" alt="#" onclick="window.location.href='jane_austen_emma.html'">
+     <a style="color:black;padding:10px;" class="word-text" href="book/novel/jane_austen_emma.html">Emma</a>
     </div>
     <!-------------------------------->
     <div class="search-item fantasy adventure content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIN_1csD5hgtBlaZxK4sbWCdHPTPZW7fhSTWap0xggw3fQRbBXzyLB3wA8EOyM6qykIGLcd_4pdz21g1CyvGwXnc__tRpTTs4sbxhg1ATeQvpkWJ3tfkeuJH26i5yWw2t_JyPOElt0SlqWKxLiZfdJkFZiiXnPfi2MVIkof4bOZ0yBkXYYcoC9OCOuPe0x/s200/image_search_1730349462594.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIN_1csD5hgtBlaZxK4sbWCdHPTPZW7fhSTWap0xggw3fQRbBXzyLB3wA8EOyM6qykIGLcd_4pdz21g1CyvGwXnc__tRpTTs4sbxhg1ATeQvpkWJ3tfkeuJH26i5yWw2t_JyPOElt0SlqWKxLiZfdJkFZiiXnPfi2MVIkof4bOZ0yBkXYYcoC9OCOuPe0x/s200/image_search_1730349462594.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/04_The_Battle_of_the_Labyrinth.pdf.html">The Battle of the Labyrinth</a>
     </div>
     <!-------------------------------->
      <div class="search-item fantasy adventure content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin6IftOyc43z85qd6Bjj69o0SHKJz7Bl5DuapvLiDMvxWiAPKc1YtTCMD-NKUIjpllfw5FFIOd8dy-GxQzokPcDQSCRbR7ESz65ZNTkmnmRWjLXqDjOirGgg0nrzPj7ud70sDV10cas2Xbdye9Bq-tkdIL9dsH2RD4aAw4BbG_uS6IEFoJMgrLuOl3Tpxd/s200/image_search_1730349444382.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin6IftOyc43z85qd6Bjj69o0SHKJz7Bl5DuapvLiDMvxWiAPKc1YtTCMD-NKUIjpllfw5FFIOd8dy-GxQzokPcDQSCRbR7ESz65ZNTkmnmRWjLXqDjOirGgg0nrzPj7ud70sDV10cas2Xbdye9Bq-tkdIL9dsH2RD4aAw4BbG_uS6IEFoJMgrLuOl3Tpxd/s200/image_search_1730349444382.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/03_The_Titan_39_s_Curse.pdf.html">The Titans Curse</a>
     </div>
     <!-------------------------------->
@@ -3063,32 +3068,32 @@ document.querySelectorAll('.dropdown-toggle').forEach((toggle) => {
     </div>
     <!-------------------------------->
     <div class="search-item fantasy adventure content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-G7EfpMmdVfzMfofEUsRzYu0d5dFXfk__7p1UcH-36d2LvWa7HjMIOlGT9qZx8KzVcSW-EeoLv7QlUFW6KwmGWogA7MyvE0Lxr8s0rUtJw3Ll4BGwESJLHABL8dtgOgmH17swtllNel_I5eYHImORObUcEFkA-2kqTOoLhGn0eyRZ5n9eMvyYZL4PRvwE/s200/image_search_1730337901216.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-G7EfpMmdVfzMfofEUsRzYu0d5dFXfk__7p1UcH-36d2LvWa7HjMIOlGT9qZx8KzVcSW-EeoLv7QlUFW6KwmGWogA7MyvE0Lxr8s0rUtJw3Ll4BGwESJLHABL8dtgOgmH17swtllNel_I5eYHImORObUcEFkA-2kqTOoLhGn0eyRZ5n9eMvyYZL4PRvwE/s200/image_search_1730337901216.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/Tarzan_Lord_of_the_Jungle__Edgar.html">Tarzan lord of the Jungle</a>
     </div>
     <!-------------------------------->
      <div class="search-item  fantasy adventure content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL3GEzi-Ab93CiC_JXvKNesMDNkYZ-rH3mZoUh9rtKZSBjUk7ioU8RvvNhyphenhyphen6AIbw7UFRTkVi-672_v6HAD_-6pNXFD8QPZC2EQAy84T4_Dm81qMEnLsYTT3zpJm0DGbTpfVtRRMMzN-xTuuPrckFUccKpsZd7xKx6iHZeWaNJE2YMC3iB9bgi9_WHDrvps/s200/image_search_1730337729249.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL3GEzi-Ab93CiC_JXvKNesMDNkYZ-rH3mZoUh9rtKZSBjUk7ioU8RvvNhyphenhyphen6AIbw7UFRTkVi-672_v6HAD_-6pNXFD8QPZC2EQAy84T4_Dm81qMEnLsYTT3zpJm0DGbTpfVtRRMMzN-xTuuPrckFUccKpsZd7xKx6iHZeWaNJE2YMC3iB9bgi9_WHDrvps/s200/image_search_1730337729249.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/Tarzan_and_the_Jewels_of_Opar.html">Tarzan And The Jewel of Opar</a>
     </div>
     <!-------------------------------->
     <div class="search-item  fantasy adventure content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiYzayNQLGrqnrvXo8u5EZWebbhBFLlrr9w8yGaq7AA1Xc35_EZftNZONgdQjM8wqjot6dKPUotyQoPDBQnWBMijSfJrqaZxyf5PWaBPfUE_e-KxD1699d-Bfgsxs3-VxIYHlCn-oPa17uAXuuH1XonI71Puz2i1ZlzLsEPCfMAd9AwLPVPAbKhOYpt7CO/s200/image_search_1730337691152.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiYzayNQLGrqnrvXo8u5EZWebbhBFLlrr9w8yGaq7AA1Xc35_EZftNZONgdQjM8wqjot6dKPUotyQoPDBQnWBMijSfJrqaZxyf5PWaBPfUE_e-KxD1699d-Bfgsxs3-VxIYHlCn-oPa17uAXuuH1XonI71Puz2i1ZlzLsEPCfMAd9AwLPVPAbKhOYpt7CO/s200/image_search_1730337691152.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/Tarzan_and_the_Ant_Men-Edgar_Rice_Burroughs.html">Tarzan And The Ant men </a>
     </div>
     <!-------------------------------->
      <div class="search-item  fantasy adventure content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_WZ6D09Et6AvKqKa7qbIlT8B5pACywobZln5Z4MoWV6mQiZlSl3KorCUtXe-88zA96BfYh3LoXYEnZh3n6eWnG7Ga7gOF8fo5darCVA7LCzrs4-Kl4y3j152oztn2BYAvCzWjfbTASSpV6fZCSGdo8LwNJ4IzQs_IdPkXl4Np59XV4TJsYX6SG19BIGf0/s200/image_search_1730337644327.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_WZ6D09Et6AvKqKa7qbIlT8B5pACywobZln5Z4MoWV6mQiZlSl3KorCUtXe-88zA96BfYh3LoXYEnZh3n6eWnG7Ga7gOF8fo5darCVA7LCzrs4-Kl4y3j152oztn2BYAvCzWjfbTASSpV6fZCSGdo8LwNJ4IzQs_IdPkXl4Np59XV4TJsYX6SG19BIGf0/s200/image_search_1730337644327.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/Tarzan_and_the_Golden_Lion.html">Tarzan And The Golden Lion</a>
     </div>
     <!-------------------------------->
     <div class="search-item fantasy adventure content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAXbUUoFzzNPcvvPqQLwuxh1szbY6ue3Vbf_37dtxjBTClCzKakTZvWAMQJX7FjRzBPrNEtDw5A5M06AfF2BXasviLW3_laZeAzlojCPOW9nNvN7f4wTdWKPML94Hb99TbzlkMulPdBxLpUSbATRjsOynA9CvWoda_QQVnN92PmLl3OEO4QL95w5ZRz-z7/s200/image_search_1730337523427.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAXbUUoFzzNPcvvPqQLwuxh1szbY6ue3Vbf_37dtxjBTClCzKakTZvWAMQJX7FjRzBPrNEtDw5A5M06AfF2BXasviLW3_laZeAzlojCPOW9nNvN7f4wTdWKPML94Hb99TbzlkMulPdBxLpUSbATRjsOynA9CvWoda_QQVnN92PmLl3OEO4QL95w5ZRz-z7/s200/image_search_1730337523427.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/tarzan-at-the-earths-core.html">Tarzan at the Earth's core </a>
     </div>
     <!-------------------------------->
      <div class="search-item adventure fantasy content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwx2R8BUUdDSeiCM_YSQekUmd5ZiSaqpziIbJaP4b5x_VwJMa-SYNoRevRiheCGbhtTGvfGHQ_cgNluSP5T9BbrLcVvgi688g513uxRuVqgPG8hTf86EM5ughWAD_GavcQ2801zap72iafwhSxikUDDedvmUgY8TLKXg8D1R0mxlGVVhPt_nGTBuznWQRj/s200/image_search_1730337459651.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwx2R8BUUdDSeiCM_YSQekUmd5ZiSaqpziIbJaP4b5x_VwJMa-SYNoRevRiheCGbhtTGvfGHQ_cgNluSP5T9BbrLcVvgi688g513uxRuVqgPG8hTf86EM5ughWAD_GavcQ2801zap72iafwhSxikUDDedvmUgY8TLKXg8D1R0mxlGVVhPt_nGTBuznWQRj/s200/image_search_1730337459651.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/tarzan-and-the-foreign-legion.html">Tarzan And The Foreign Legion</a>
     </div>
     <!-------------------------------->
@@ -3163,143 +3168,143 @@ document.querySelectorAll('.dropdown-toggle').forEach((toggle) => {
     </div>
     <!-------------------------------->
     <div class="search-item  romance content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv2ZaQChhayOOvSKAvvABNAXns-lSX4zfP3RmQDjDnkaDs09eRefCc16_qTwubzxhHjIxmbhg-RR95IopLjmv2GLh7bL30UYhtEKJoEMBAEWRL9Xsqbca9QQIir9Qp7JE1esMTsYmGfdrODVZvnS-SJqCo8beiIcGn-kwptvrq2sF9iTVdvomi2U9QsBBM/s200/image_search_1730336518458.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv2ZaQChhayOOvSKAvvABNAXns-lSX4zfP3RmQDjDnkaDs09eRefCc16_qTwubzxhHjIxmbhg-RR95IopLjmv2GLh7bL30UYhtEKJoEMBAEWRL9Xsqbca9QQIir9Qp7JE1esMTsYmGfdrODVZvnS-SJqCo8beiIcGn-kwptvrq2sF9iTVdvomi2U9QsBBM/s200/image_search_1730336518458.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/Mansfield_Park.html">Mansfield Park</a>
     </div>
     <!-------------------------------->
      <div class="search-item romance content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUhcwypu7dTykHlDSBQ-RiU8kWeBFnBJqcUZL192jeF-HufgS4Ci4Olrl-lKWOKpDuk5R8BL3MSkOt4S5D1UZVs1K_3wHoQtTw6WSFd7ZoKo1qVvVjwmX5Woe6vD53OKcFjuiTAIjv3eqzQpMMn2slpJB2QYR-Rwh7T-ciDlMFegs0JhW86lJTKVLwF5my/s200/image_search_1730336362639.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUhcwypu7dTykHlDSBQ-RiU8kWeBFnBJqcUZL192jeF-HufgS4Ci4Olrl-lKWOKpDuk5R8BL3MSkOt4S5D1UZVs1K_3wHoQtTw6WSFd7ZoKo1qVvVjwmX5Woe6vD53OKcFjuiTAIjv3eqzQpMMn2slpJB2QYR-Rwh7T-ciDlMFegs0JhW86lJTKVLwF5my/s200/image_search_1730336362639.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/Lolita.html">lolita</a>
     </div>
     <!-------------------------------->
     <div class="search-item  fantasy content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnMMw0im8Qlg3J_OWadEp0OIlS6vLx0JWTCscnvAaXl0V4grstYjoxEaZ2AvIchqPecwwYmPE59UawwvYqmSFHRc-PeH9eNntSEh8yk5_WE4I-x2MrJcNdkVD2DtRB6gTLdHJ9ItYmPEG_R8Q7nJdSenVmZfv3rtJHj0_I8RgLSuixB90W7UCgLIGyQRXl/s200/image_search_1730336240522.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnMMw0im8Qlg3J_OWadEp0OIlS6vLx0JWTCscnvAaXl0V4grstYjoxEaZ2AvIchqPecwwYmPE59UawwvYqmSFHRc-PeH9eNntSEh8yk5_WE4I-x2MrJcNdkVD2DtRB6gTLdHJ9ItYmPEG_R8Q7nJdSenVmZfv3rtJHj0_I8RgLSuixB90W7UCgLIGyQRXl/s200/image_search_1730336240522.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/llana-of-gathol.html">Llana of gathol </a>
     </div>
     <!-------------------------------->
      <div class="search-item  adventure fantasy content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT-iIOKaGqHfMQGaB9KW95NgmzL32iWoCYfEpjlYjTqKUpoJj8ebM5dDaXQ2GOupH9e43goOHU8LOnl3E1zWeOFK8EWJdOCjj01gZVJpV4VVAMEGHEyH8BYybAHS7NuG_nGkntzEXxC9Ldukb52cw-M4U-SfEJcYZisRnM6iDk-q0KbwAqnxvr_vnhZ0NJ/s200/image_search_1730336222508.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT-iIOKaGqHfMQGaB9KW95NgmzL32iWoCYfEpjlYjTqKUpoJj8ebM5dDaXQ2GOupH9e43goOHU8LOnl3E1zWeOFK8EWJdOCjj01gZVJpV4VVAMEGHEyH8BYybAHS7NuG_nGkntzEXxC9Ldukb52cw-M4U-SfEJcYZisRnM6iDk-q0KbwAqnxvr_vnhZ0NJ/s200/image_search_1730336222508.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/land_that_time_forgot.html">land that time forgot </a>
     </div>
     <!-------------------------------->
     <div class="search-item  fantasy content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE417Uu8sR9C8po0O0ba8XxQ8YFkPsDqSs-dlG1V4ukKD-oES0R2_6oq-6427dDB0T46XoBDkSxWh7fYekZBwlq3Lt01_TJWm1girnxOdgkF3YJEbCuK9QDTqTEjkdRVEIteN4I4ZsN0TGpXjiD0sIG0jV94Mf2_h8565NWJ0kIRuo9ryziRZfE8AlpuSV/s200/image_search_1730336178328.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE417Uu8sR9C8po0O0ba8XxQ8YFkPsDqSs-dlG1V4ukKD-oES0R2_6oq-6427dDB0T46XoBDkSxWh7fYekZBwlq3Lt01_TJWm1girnxOdgkF3YJEbCuK9QDTqTEjkdRVEIteN4I4ZsN0TGpXjiD0sIG0jV94Mf2_h8565NWJ0kIRuo9ryziRZfE8AlpuSV/s200/image_search_1730336178328.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/LAND_OF_TERROR.html">land of terror</a>
     </div>
     <!-------------------------------->
      <div class="search-item  adventure science fantasy content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI1mo7ov1R-l7ViDeyC3BsiYqsm-ye6m3_hroA5q2CF6ZPzqHFOOz_15o0qLoF-hhjP0Hu5m6zkWldTWSkTlm5cKJBhnBf__u-xC48qaGk89rufov7ddl2SIhq1CCCfAxOUZDHmgCDtI1FwTS-NF5fEjz_VqwDUofV-PKmgwJAMYPOy7_H2VTdCehE73hj/s200/image_search_1730336110441.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI1mo7ov1R-l7ViDeyC3BsiYqsm-ye6m3_hroA5q2CF6ZPzqHFOOz_15o0qLoF-hhjP0Hu5m6zkWldTWSkTlm5cKJBhnBf__u-xC48qaGk89rufov7ddl2SIhq1CCCfAxOUZDHmgCDtI1FwTS-NF5fEjz_VqwDUofV-PKmgwJAMYPOy7_H2VTdCehE73hj/s200/image_search_1730336110441.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/john-carter-of-mars.html">John Carter of Mars</a>
     </div>
     <!-------------------------------->
     <div class="search-item  adventure content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibK7VCzBU5jDQZvXwMsWQwa8C-yf7WK4ijHgNTXIoHtswDFq05yrw4Z9cTWXTvEmd7XGpaUxnAFekRE5q0Jgds9Pl_kupU9pjueUK8rfYZ-W8DgDQbyU2jeGn-fe2HD3TOAjbOObAFewqXGS6d-rbcEca4hO22v2-uMmX1NuZsBYG63O-qga_ubXdD370_/s200/image_search_1730257950287.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibK7VCzBU5jDQZvXwMsWQwa8C-yf7WK4ijHgNTXIoHtswDFq05yrw4Z9cTWXTvEmd7XGpaUxnAFekRE5q0Jgds9Pl_kupU9pjueUK8rfYZ-W8DgDQbyU2jeGn-fe2HD3TOAjbOObAFewqXGS6d-rbcEca4hO22v2-uMmX1NuZsBYG63O-qga_ubXdD370_/s200/image_search_1730257950287.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/jack-london_white-fang.html">White fang</a>
     </div>
     <!-------------------------------->
      <div class="search-item  adventure content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdkgGy4DNahXSIQqxOeGPA5S9G1XibGO1R60Pn-sW-JR2As4_k3Wk8Vu2YFTFlUriUucreq2jzXFm09U487eLq4p3nhaztC-AvZNu5wdb1aUWBZB_Iqh0UMn400Mg0Mmy4YgC5Lk1Bwcrr8BU-SCQU7dSqqQrSuPg8o-FQsAEyrbh5jQjSiR74JjWquPip/s200/image_search_1730257850340.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdkgGy4DNahXSIQqxOeGPA5S9G1XibGO1R60Pn-sW-JR2As4_k3Wk8Vu2YFTFlUriUucreq2jzXFm09U487eLq4p3nhaztC-AvZNu5wdb1aUWBZB_Iqh0UMn400Mg0Mmy4YgC5Lk1Bwcrr8BU-SCQU7dSqqQrSuPg8o-FQsAEyrbh5jQjSiR74JjWquPip/s200/image_search_1730257850340.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/jack-london_the-sea-wolf.html">The sea wolf</a>
     </div>
     <!-------------------------------->
     <div class="search-item  science content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQOWBStCMdS_Y1_jS-4ZU_vfOz4VKgpyiUo-gIzX0hjSJ9rCeKW9Cw3eJe_7mKZPR8ujmXahyvJ7F11B_o7deM_bwflNbvHNdGhMyLPlIYiYWqK0KKaynpkRWiAPKAUcXbDcGjdo8h-xBbv-mJBd1KiFGXPAFC9Bwt9cjKTZTCWDb7HHR4nHJVA1vhpbDt/s200/image_search_1730257763925.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQOWBStCMdS_Y1_jS-4ZU_vfOz4VKgpyiUo-gIzX0hjSJ9rCeKW9Cw3eJe_7mKZPR8ujmXahyvJ7F11B_o7deM_bwflNbvHNdGhMyLPlIYiYWqK0KKaynpkRWiAPKAUcXbDcGjdo8h-xBbv-mJBd1KiFGXPAFC9Bwt9cjKTZTCWDb7HHR4nHJVA1vhpbDt/s200/image_search_1730257763925.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/Invisible_Man.html">Invincible Man</a>
     </div>
     <!-------------------------------->
      <div class="search-item  adventure content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPXCRiiVA2K31C3Cqy8q5YRXDtnMOHTn-zKRvPCDoKE2aG31OA6we9sd8nVXx5tyHOYrLEr_DjabLsu5_jFACKuyKRfPxCPtso0jmgsIq5V6B2EStSgoOttli73NixKDMF3_ZoHUFh7W9v-X1aEwn69nfOHlE9hHkrUKFAOvCcFcNXNd4_XKJnn0irspJH/s200/image_search_1730257742593.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPXCRiiVA2K31C3Cqy8q5YRXDtnMOHTn-zKRvPCDoKE2aG31OA6we9sd8nVXx5tyHOYrLEr_DjabLsu5_jFACKuyKRfPxCPtso0jmgsIq5V6B2EStSgoOttli73NixKDMF3_ZoHUFh7W9v-X1aEwn69nfOHlE9hHkrUKFAOvCcFcNXNd4_XKJnn0irspJH/s200/image_search_1730257742593.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/In_Search_of_the_Unknown-Robert_W._Chambers.html">in search of the unknown </a>
     </div>
     <!-------------------------------->
     <div class="search-item  science horror 
 content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm0As55pdBTDltmUxibPnTL9XwTJAYweBxqifFWbh_KRpoxT9prpUKoPWjy7ofvCE-FnWGYDxzKR5xennfL79QUk0AttxEXR8kYOe61JjCGVe4OYxbCzPmX9JnXNruVH3v_6PfGWCapeJYTQXOokLB6edZm74kQAn69wruH-GzihAufNUHMAh2BJpc2KGC/s200/image_search_1730257614142.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm0As55pdBTDltmUxibPnTL9XwTJAYweBxqifFWbh_KRpoxT9prpUKoPWjy7ofvCE-FnWGYDxzKR5xennfL79QUk0AttxEXR8kYOe61JjCGVe4OYxbCzPmX9JnXNruVH3v_6PfGWCapeJYTQXOokLB6edZm74kQAn69wruH-GzihAufNUHMAh2BJpc2KGC/s200/image_search_1730257614142.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/i-am-legend.html">I am legend </a>
     </div>
     <!-------------------------------->
      <div class="search-item fantasy content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjokK8P4B-jlomHHlYRaQycaiZO58kzIKwvo67usjAIBSG-JvFDw-NRPNc7iLzWrIZyc1vxKz6L2OpTwwhN3IDM-G7HOWQ8oU0rdAdlgQOErIaPJGmNmzC2S72kKE5wSSLNfv4-tN91bhl0P3Qao2r8KwPcfAZIlyh9XG3bkJJBEd6RPNhC9TD9zi7IWNGB/s200/image_search_1730257577331.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjokK8P4B-jlomHHlYRaQycaiZO58kzIKwvo67usjAIBSG-JvFDw-NRPNc7iLzWrIZyc1vxKz6L2OpTwwhN3IDM-G7HOWQ8oU0rdAdlgQOErIaPJGmNmzC2S72kKE5wSSLNfv4-tN91bhl0P3Qao2r8KwPcfAZIlyh9XG3bkJJBEd6RPNhC9TD9zi7IWNGB/s200/image_search_1730257577331.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/heart-of-the-world.html">Heart of the world </a>
     </div>
     <!-------------------------------->
     <div class="search-item adventure fantasy content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDmZByqss1cSV_UAt_s0F2cBzU-ba6jZ4oTrWDfmN-I08CSsZytMZMCgBho2lZAdvPHwr5bicrmsfhtv1GNANSNCRPlLMmCXQoKQ1gnCK2IdYggZy5KAfGuA-ypMr8GjbvPwXixcByxhwO-sfH-Q9jxhl49__G6KMqUEiL4GxMhUpDkgndxHavBGGYO15d/s200/image_search_1730257389974.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDmZByqss1cSV_UAt_s0F2cBzU-ba6jZ4oTrWDfmN-I08CSsZytMZMCgBho2lZAdvPHwr5bicrmsfhtv1GNANSNCRPlLMmCXQoKQ1gnCK2IdYggZy5KAfGuA-ypMr8GjbvPwXixcByxhwO-sfH-Q9jxhl49__G6KMqUEiL4GxMhUpDkgndxHavBGGYO15d/s200/image_search_1730257389974.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/Harry_Potter_the_Sorcerers_Stone.html">Harry Potter and the philosopher stone </a>
     </div>
     <!-------------------------------->
      <div class="search-item horror fantasy science content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmBpZ-RdC9fJOo8RCwxiHQ1uzUBtvEqWtcDZospVYBZ1SxeH14dIJucDpN98tdA-Hbo75eLjh8vhSqZxrzsiZlcZTkRzI-BVSPa0djjzoBkNU9byZxjVtnGHMgxgyVnkzHrmzyVx6S4u7INDtwPdfAKqbyLVom8A5HYEAiHgn1lZkntjgy5wwdjpRZU_4K/s200/image_search_1730257185459.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmBpZ-RdC9fJOo8RCwxiHQ1uzUBtvEqWtcDZospVYBZ1SxeH14dIJucDpN98tdA-Hbo75eLjh8vhSqZxrzsiZlcZTkRzI-BVSPa0djjzoBkNU9byZxjVtnGHMgxgyVnkzHrmzyVx6S4u7INDtwPdfAKqbyLVom8A5HYEAiHgn1lZkntjgy5wwdjpRZU_4K/s200/image_search_1730257185459.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/Frankenstein_modern_prometheus.html">Frankenstein or the modern Prometheus </a>
     </div>
     <!-------------------------------->
     <div class="search-item  romance content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlOJV58H8gxD5DvsQiNufsBzNctNqoDTfhcJt48v-kqoqozHyGWdnBJH9EA-TupJ_ADIhfbzBPk-AcMnH1ntyG9oVzjTCFe5sJUTa7zOXf0kq0gFoSuFx7BeA3myuRlJq02WYJxGWc2rSi7rN6CqaaYpazCfMahmG7wR2rHfqvMA1nWCxeoG3v1HOTSlGO/s200/image_search_1730257137876.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlOJV58H8gxD5DvsQiNufsBzNctNqoDTfhcJt48v-kqoqozHyGWdnBJH9EA-TupJ_ADIhfbzBPk-AcMnH1ntyG9oVzjTCFe5sJUTa7zOXf0kq0gFoSuFx7BeA3myuRlJq02WYJxGWc2rSi7rN6CqaaYpazCfMahmG7wR2rHfqvMA1nWCxeoG3v1HOTSlGO/s200/image_search_1730257137876.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/efficiency-expert.html">Efficiency Expert</a>
     </div>
     <!-------------------------------->
      <div class="search-item science adventure content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuWVBif9sSHceLkbyX9RC9IYcafS-_HGQm4c0zlsCc0fcSKPmfQkRtlgWxQg7AQB1DrKupxb1NzjgvG5s8vGeUshLTWQLBr1z7-K-i9Dgzjm3NyBtfHOBrOOQjuesgjevGdzx0LAL_WjkuCH6T0RDF3unNCWzH8bUghuUjNfJjkkP-aCiomgku26JC55dC/s200/image_search_1730257000296.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuWVBif9sSHceLkbyX9RC9IYcafS-_HGQm4c0zlsCc0fcSKPmfQkRtlgWxQg7AQB1DrKupxb1NzjgvG5s8vGeUshLTWQLBr1z7-K-i9Dgzjm3NyBtfHOBrOOQjuesgjevGdzx0LAL_WjkuCH6T0RDF3unNCWzH8bUghuUjNfJjkkP-aCiomgku26JC55dC/s200/image_search_1730257000296.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/edgar-rice-burroughs_out-of-times-abyss.html">Out of Time Abyss </a>
     </div>
     <!-------------------------------->
      <div class="search-item adventure fantasy content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYfnjyfmBwm-6wu_vMmKQ3oMjlAZJdiboUiugcNL2BEyM_DeF_Khy6I7LZiCfOUPS8d6XMwHixhcLLN1MhizkmYDXB3jNbaGxOhFzwdbSHW0o-eu2LWvmhLnQuUnQlrLFwI4t-gxh0A5o-Yuv8kawogoMVqQQtvgDWDlES3c-pi7Yp1hMdMAJtuvEdcI6t/s200/image_search_1730256963897.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYfnjyfmBwm-6wu_vMmKQ3oMjlAZJdiboUiugcNL2BEyM_DeF_Khy6I7LZiCfOUPS8d6XMwHixhcLLN1MhizkmYDXB3jNbaGxOhFzwdbSHW0o-eu2LWvmhLnQuUnQlrLFwI4t-gxh0A5o-Yuv8kawogoMVqQQtvgDWDlES3c-pi7Yp1hMdMAJtuvEdcI6t/s200/image_search_1730256963897.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/edgar-rice-burroughs_moon-maid.html">Moon Maid</a>
     </div>
     <!-------------------------------->
      <div class="search-item fantasy science content-item hidden">
-      <img class="word-image" src="" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/edgar-rice-burroughs_fighting-man-of-mars.html">fighting man of Mars </a>
     </div>
     <!-------------------------------->
      <div class="search-item horror content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4Fh1fH1OwCoj0_vy4QFjL98zFTsrE2pdSFXLjy62qGehnh39BhAQMtoE7P5aclu9htW_-w74NcAz6AqRm1Z0XR4rdCdGEyihjXdIvsGJokZ_Qe5uLboWiqXfxN0n2R9wtVjVM0bdv1U9KJacTPyQXJe-q_ud23pgrDIQ9VZCzgry8bP5aD5ZYfOYSvs_z/s200/image_search_1730256878381.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4Fh1fH1OwCoj0_vy4QFjL98zFTsrE2pdSFXLjy62qGehnh39BhAQMtoE7P5aclu9htW_-w74NcAz6AqRm1Z0XR4rdCdGEyihjXdIvsGJokZ_Qe5uLboWiqXfxN0n2R9wtVjVM0bdv1U9KJacTPyQXJe-q_ud23pgrDIQ9VZCzgry8bP5aD5ZYfOYSvs_z/s200/image_search_1730256878381.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/Dracula-Bram_Stoker.html">Dracula </a>
     </div>
     <!-------------------------------->
      <div class="search-item romance  content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6jx86ZlGa-rSQoD_fJp40dcogTpx4OwQUjRbSSf-mcvgIu6E0uZjG1LnfC4hcCipWIxr1wCDVP2-FuMefrYHSVoPrbabx6_2wjNP2Cs1qivZHrqN6_NDL3hS8ic-mlS2J8ZZu2phNuecUa716LVo3O5ab7wnKf5AjjLGUHux44jgAiXtDLUuNsgH5HkcO/s200/image_search_1730256827627.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6jx86ZlGa-rSQoD_fJp40dcogTpx4OwQUjRbSSf-mcvgIu6E0uZjG1LnfC4hcCipWIxr1wCDVP2-FuMefrYHSVoPrbabx6_2wjNP2Cs1qivZHrqN6_NDL3hS8ic-mlS2J8ZZu2phNuecUa716LVo3O5ab7wnKf5AjjLGUHux44jgAiXtDLUuNsgH5HkcO/s200/image_search_1730256827627.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/cleopatra.html">cleopatra </a>
     </div>
     <!-------------------------------->
      <div class="search-item adventure content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqFJ8xoOK4o_2G9uiM33JfBIGurzVMBHtvJMe_fVoY9Guje6G031qyFx8qekF-PMURZKBsk_6YapAnpOs-hb44v1luOA4MQfZ4G0uvMF4tk3lHe6Wzq_YBibn9_Pvzn_6eUdIy_GlMO1_nNkm5kMIqU4lbR0ekagb5Dm86a2WaDZ4P9TiuvAZHLl47jae2/s200/image_search_1730256752452.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqFJ8xoOK4o_2G9uiM33JfBIGurzVMBHtvJMe_fVoY9Guje6G031qyFx8qekF-PMURZKBsk_6YapAnpOs-hb44v1luOA4MQfZ4G0uvMF4tk3lHe6Wzq_YBibn9_Pvzn_6eUdIy_GlMO1_nNkm5kMIqU4lbR0ekagb5Dm86a2WaDZ4P9TiuvAZHLl47jae2/s200/image_search_1730256752452.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/Captain-Blood.html">captain Blood</a>
     </div>
     <!-------------------------------->
      <div class="search-item horror science content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga4fpIy2keoOoaEWiPs-BtuxIJ_2Mnvw-zobWdCjhEIIITWg2dn-VSbcJszDb7DQX0nhfamvJ7MIdCDc_6fH33VE8mRMkKVbdWNCbYs74sw09yEosfJqgUeI6_0OKz1WdK183rHCZqMGrf0hFTeV2p_2BJo1Bd0exBT63vBg6bCUQxBgtEPxAthTlIF5El/s200/image_search_1730256732991.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga4fpIy2keoOoaEWiPs-BtuxIJ_2Mnvw-zobWdCjhEIIITWg2dn-VSbcJszDb7DQX0nhfamvJ7MIdCDc_6fH33VE8mRMkKVbdWNCbYs74sw09yEosfJqgUeI6_0OKz1WdK183rHCZqMGrf0hFTeV2p_2BJo1Bd0exBT63vBg6bCUQxBgtEPxAthTlIF5El/s200/image_search_1730256732991.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/At_the_Mountains_of_Madness.html">At the mountain of madness </a>
     </div>
     <!-------------------------------->
      <div class="search-item adventure fantasy science content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG6O6cHqeRFzeqne8WK68TKyBLBxotJF5N7ZxYum1qknaNWpMHrZrL-KGK9JXwXvlduUwy68f4QNymIfo9E1fD1JQbW-3Ow0KUf1BS1W-bnGNKgAu8EgU1qFd_0LiuVny64vQqYm6oj51quYzvarqrgiJnFytDH0Xr38h_pa0gAPeziSOPHP47GtAV2JED/s200/image_search_1730256673665.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG6O6cHqeRFzeqne8WK68TKyBLBxotJF5N7ZxYum1qknaNWpMHrZrL-KGK9JXwXvlduUwy68f4QNymIfo9E1fD1JQbW-3Ow0KUf1BS1W-bnGNKgAu8EgU1qFd_0LiuVny64vQqYm6oj51quYzvarqrgiJnFytDH0Xr38h_pa0gAPeziSOPHP47GtAV2JED/s200/image_search_1730256673665.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/At_the_Earth's_Core.html">At the earth's core</a>
     </div>
     <!-------------------------------->
      <div class="search-item  romance content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTUphG1MXbrKXHuYkx1xCpdq6dexc4WtOHwUaVjb9Zy99H6ef63QOaE1woowOySQkcwIU9SdSljowcip3ccv024dBMxLspeJFnXd-8wMugv8ClTy7hp-o7_jHBhyphenhyphen-uG8g9cred3ySyCh71qX4xty6GY9N7oGOaZQAH4opCWdTc_erH0sBdCBk2KQl5kQhu/s200/image_search_1730256641005.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTUphG1MXbrKXHuYkx1xCpdq6dexc4WtOHwUaVjb9Zy99H6ef63QOaE1woowOySQkcwIU9SdSljowcip3ccv024dBMxLspeJFnXd-8wMugv8ClTy7hp-o7_jHBhyphenhyphen-uG8g9cred3ySyCh71qX4xty6GY9N7oGOaZQAH4opCWdTc_erH0sBdCBk2KQl5kQhu/s200/image_search_1730256641005.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/Anna_Karenina-Leo_Tolstoy.html">Anna Karenina</a>
     </div>
     <!-------------------------------->
      <div class="search-item fable  content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP2vsclb9sS_9mrAHith8R58jCuCnwl7Lz3O6wknnxR193CESydqiVuwKn3LHxuYV9BF2yxgdW7RiOR7U4iMR1O83xqEg3DdD7k3RYvgzGdUZg5LnS8VM5fQX4zvCQsxfled895Sqt5gNW6fyQA2fRIzzYyquIYkvds_Rw_vu_tB9bo_Gw7eBH5NfZFge0/s200/image_search_1730256338197.gif" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP2vsclb9sS_9mrAHith8R58jCuCnwl7Lz3O6wknnxR193CESydqiVuwKn3LHxuYV9BF2yxgdW7RiOR7U4iMR1O83xqEg3DdD7k3RYvgzGdUZg5LnS8VM5fQX4zvCQsxfled895Sqt5gNW6fyQA2fRIzzYyquIYkvds_Rw_vu_tB9bo_Gw7eBH5NfZFge0/s200/image_search_1730256338197.gif" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/Animal_Farm.html">Animal Farm</a>
     </div>
     <!-------------------------------->
      <div class="search-item  horror content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhYnoq-h9ebXS_WbFHsKsNKqvAkq_7xb19j0Xy4A4Z4sJxVmDWlAojZ5psLIe665RH20vsn4ZxHASWm5X-y8UN3i_T37QT_dWcgpsQIDFcLqKJJ__zNahA8IxeXMKRAMCZlJF2SPOoRn7gsuDhxBu_yun_IbJ5YAfWCIzMPS4qxYkVv3arnLiFyUfvF2yx/s200/image_search_1730256280235.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhYnoq-h9ebXS_WbFHsKsNKqvAkq_7xb19j0Xy4A4Z4sJxVmDWlAojZ5psLIe665RH20vsn4ZxHASWm5X-y8UN3i_T37QT_dWcgpsQIDFcLqKJJ__zNahA8IxeXMKRAMCZlJF2SPOoRn7gsuDhxBu_yun_IbJ5YAfWCIzMPS4qxYkVv3arnLiFyUfvF2yx/s200/image_search_1730256280235.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/American_Psycho.html">American psycho </a>
     </div>
     <!-------------------------------->
      <div class="search-item romance  content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiza1FXiUKDGldKl3sZmyLNKZW0pwnkJgPjY7QzySKVkMbJv04NNCwnXGOEqS5AoVj_0aM60jK55OJ8celfQQ-hVgOfFxrS7scH_ckul5e0rzrhlnKOUzIDyJIG7FOmKaqqkwcUf9xg0CNHn9oFl0dgwc2Ztojlu__uL8tDKfN3mmBuxve9532YYFiTLXiu/s200/image_search_1730256224218.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiza1FXiUKDGldKl3sZmyLNKZW0pwnkJgPjY7QzySKVkMbJv04NNCwnXGOEqS5AoVj_0aM60jK55OJ8celfQQ-hVgOfFxrS7scH_ckul5e0rzrhlnKOUzIDyJIG7FOmKaqqkwcUf9xg0CNHn9oFl0dgwc2Ztojlu__uL8tDKfN3mmBuxve9532YYFiTLXiu/s200/image_search_1730256224218.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/A_Room_with_a_View.html">A Room with a view</a>
     </div>
     <!-------------------------------->
      <div class="search-item fantasy content-item hidden">
-      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWAlmgsSLMJNQhJbL9_MJhngJZpJIw6yBPuNG8AvvRvj9Oj5tQf6Q1ijIHMPTjHR0vm6Zk5dK754k8VG8UVq2xR4KuZP4AHST1w-CGm_wo8eoVFCNwxs7NGx2P5QSJmw4sYs4RIUx_j2wDd7PRSwFKYUf4c74H3YVTH6uc52jtLDB9tj8qTfXRLI8ktdZB/s200/image_search_1730256172371.jpg" alt="#" onclick="window.location.href=''">
+      <img class="word-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWAlmgsSLMJNQhJbL9_MJhngJZpJIw6yBPuNG8AvvRvj9Oj5tQf6Q1ijIHMPTjHR0vm6Zk5dK754k8VG8UVq2xR4KuZP4AHST1w-CGm_wo8eoVFCNwxs7NGx2P5QSJmw4sYs4RIUx_j2wDd7PRSwFKYUf4c74H3YVTH6uc52jtLDB9tj8qTfXRLI8ktdZB/s200/image_search_1730256172371.jpg" alt="#" onclick="window.location.href='book/novel/'">
      <a style="color:black;padding:10px;" class="word-text" href="book/novel/A_Christmas_Carol.html">A Christmas Carol</a>
     </div>
     
